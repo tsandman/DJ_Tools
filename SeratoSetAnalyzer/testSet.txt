@@ -1,0 +1,1141 @@
+Log file created at: 2020/06/22 20:02:15
+Running on machine: TYLAP
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0622 20:02:15.951938 11980 Globals.cpp:950] Log opened
+I0622 20:02:15.998803 11980 Globals.cpp:762] Host id for crash reporting: e7b3da52415c3b7bc9065cbdc36956c8
+I0622 20:02:16.086529 11980 PlatformSetup.h:31] Screen = (Name=\\.\DISPLAY1,PR=1,Logical=120,Physical=141.585,Width=1920,Height=1080,Scale=1.5)
+I0622 20:02:16.086529 11980 WindowsQtSetup.cpp:62] Screen scale factors = \\.\DISPLAY1=1.5
+I0622 20:02:17.607901 11980 mainqtview.cpp:63] Device pixel ratio = 1.5
+E0622 20:02:20.975297 18248 HangDetect.cpp:475] Hang Detected - Ongoing | Hang Phase Startup | Main Thread | Duration: 5015 ms
+I0622 20:02:21.645661 11980 SeratoDJQt.cpp:686] Main view : ready.
+I0622 20:02:21.862573 11980 SeratoDJQt.cpp:831] Main window geometry = -1, -1, 1283, 723
+I0622 20:02:21.862573 11980 mainqtview.cpp:582] Device pixel ratio = 1.5
+I0622 20:02:21.915979 11980 Globals.cpp:1154] Hi-Res Screen Display: 1
+I0622 20:02:24.281072 11980 CGUIProgressBarWithText.cpp:66] Copying Files
+I0622 20:02:24.359182 11980 CScratch.cpp:222] Product name: Serato DJ Pro, Version: 2.3.2 (23277) 64bit
+I0622 20:02:24.378298 11980 CStandalonePlayer.cpp:200] CStandalonePlayer_OneDeck : enable audio thread timer
+I0622 20:02:24.382313 11980 CTurntableDecoder.cpp:3713] Decoder [0] output sampling set to [44100]
+I0622 20:02:24.382313 11980 CTurntableDecoder.cpp:3713] Decoder [1] output sampling set to [44100]
+I0622 20:02:24.382313 11980 CTurntableDecoder.cpp:3713] Decoder [2] output sampling set to [44100]
+I0622 20:02:24.382313 11980 CTurntableDecoder.cpp:3713] Decoder [3] output sampling set to [44100]
+I0622 20:02:24.382313 11980 CTurntableDecoder.cpp:3713] Decoder [0] output sampling set to [44100]
+I0622 20:02:24.382313 11980 CTurntableDecoder.cpp:3713] Decoder [1] output sampling set to [44100]
+I0622 20:02:24.382313 11980 CTurntableDecoder.cpp:3713] Decoder [2] output sampling set to [44100]
+I0622 20:02:24.382313 11980 CTurntableDecoder.cpp:3713] Decoder [3] output sampling set to [44100]
+I0622 20:02:24.382313 11980 CTurntableDecoder.cpp:3713] Decoder [0] output sampling set to [44100]
+I0622 20:02:24.382313 11980 CTurntableDecoder.cpp:3713] Decoder [1] output sampling set to [44100]
+I0622 20:02:24.382313 11980 CTurntableDecoder.cpp:3713] Decoder [2] output sampling set to [44100]
+I0622 20:02:24.382313 11980 CTurntableDecoder.cpp:3713] Decoder [3] output sampling set to [44100]
+I0622 20:02:24.382313 11980 CTurntableDecoder.cpp:3713] Decoder [4] output sampling set to [44100]
+I0622 20:02:24.382313 11980 CTurntableDecoder.cpp:3713] Decoder [5] output sampling set to [44100]
+I0622 20:02:24.382313 11980 CTurntableDecoder.cpp:3713] Decoder [6] output sampling set to [44100]
+I0622 20:02:24.382313 11980 CTurntableDecoder.cpp:3713] Decoder [7] output sampling set to [44100]
+I0622 20:02:24.493428 11980 Globals.cpp:4236] There is not enough space on screen to expand the waveforms.
+I0622 20:02:25.650419 11980 CScratch.cpp:538] LaPaz feature enabled
+I0622 20:02:25.870630  5276 guicontainer.cpp:192] GuiContainer:: Shader compiled
+E0622 20:02:25.997442 18248 HangDetect.cpp:475] Hang Detected - Ongoing | Hang Phase Normal operation | Main Thread | Duration: 10037 ms
+I0622 20:02:25.997442  5276 guicontainer.cpp:192] GuiContainer:: Shader compiled
+I0622 20:02:25.997442  5276 mainqtview.cpp:228] GL Type: Desktop OpenGL
+I0622 20:02:25.997442  5276 mainqtview.cpp:234] GL rendering happening on a worker thread
+I0622 20:02:25.998438  5276 mainqtview.cpp:257] Using current GL context for diagnostics
+I0622 20:02:25.998438  5276 mainqtview.cpp:263] Threaded OpenGL: Supported
+I0622 20:02:25.998438  5276 mainqtview.cpp:273] GL Vendor String: Intel
+I0622 20:02:25.998438  5276 mainqtview.cpp:274] GL Renderer String: Intel(R) UHD Graphics 630
+I0622 20:02:25.998438  5276 mainqtview.cpp:275] GL Driver Version String: 4.6.0 - Build 26.20.100.7985
+I0622 20:02:25.998438  5276 mainqtview.cpp:276] GL Extensions String: GL_3DFX_texture_compression_FXT1 GL_AMD_depth_clamp_separate GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_cl_event GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compatibility GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_robustness_isolation GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_separate_stencil GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_clip_volume_hint GL_EXT_compiled_vertex_array GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_object GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_polygon_offset_clamp GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shader_framebuffer_fetch GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_compression_s3tc GL_EXT_texture_edge_clamp GL_EXT_texture_env_add GL_EXT_texture_env_combine GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod_bias GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_IBM_texture_mirrored_repeat GL_INTEL_conservative_rasterization GL_INTEL_fragment_shader_ordering GL_INTEL_framebuffer_CMAA GL_INTEL_map_texture GL_INTEL_multi_rate_fragment_shader GL_INTEL_performance_query GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_ldr GL_NV_blend_square GL_NV_conditional_render GL_NV_primitive_restart GL_NV_texgen_reflection GL_SGIS_generate_mipmap GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_SUN_multi_draw_arrays GL_WIN_swap_hint WGL_EXT_swap_control
+I0622 20:02:25.999483  5276 mainqtview.cpp:280] Current Context: QSurfaceFormat(version 2.0, options QFlags(), depthBufferSize 24, redBufferSize -1, greenBufferSize -1, blueBufferSize -1, alphaBufferSize -1, stencilBufferSize 8, samples -1, swapBehavior 2, swapInterval 1, profile  0) 
+I0622 20:02:25.999483  5276 mainqtview.cpp:281] PBOs Supported: yes
+I0622 20:02:25.999483  5276 mainqtview.cpp:295] GL Max texture size: 16384
+I0622 20:02:26.078224 16088 :0] [Device] Queuing MIDI connection events for dispatch: 0 removed; 2 added.
+I0622 20:02:26.078224 16088 :0] [Device] Currently available connections are: 
+I0622 20:02:26.078224 16088 :0] [Device]  - DJ-202
+I0622 20:02:26.078224 16088 :0] [Device]  - Microsoft GS Wavetable Synth
+I0622 20:02:26.083245 11980 UsbConnectionList.cpp:49] New USB Connection from the module: Vid=0xc45&Pid=0x6723&BcdDevice=0x8008&Instance=1#2
+I0622 20:02:26.083245 11980 UsbConnectionList.cpp:49] New USB Connection from the module: Vid=0x8086&Pid=0xa36d&BcdDevice=0x0&Instance=1#1
+I0622 20:02:26.083245 11980 UsbConnectionList.cpp:49] New USB Connection from the module: Vid=0x8086&Pid=0x15db&BcdDevice=0x0&Instance=2#1
+I0622 20:02:26.083245 11980 UsbConnectionList.cpp:49] New USB Connection from the module: Vid=0x27c6&Pid=0x5395&BcdDevice=0x100&Instance=1#3
+I0622 20:02:26.083245 11980 UsbConnectionList.cpp:49] New USB Connection from the module: Vid=0x582&Pid=0x205&BcdDevice=0x100&Instance=1#5
+I0622 20:02:26.083245 11980 UsbConnectionList.cpp:49] New USB Connection from the module: Vid=0x8087&Pid=0x29&BcdDevice=0x1&Instance=1#4
+I0622 20:02:26.091223  4568 DeviceAggregationThread.cpp:199] 0582_0205_0000#0 is sleeping for 0 before starting aggregation
+I0622 20:02:26.091223  4568 DeviceAggregationThread.cpp:201] 0582_0205_0000#0 finished sleeping for 0
+I0622 20:02:26.091223 18148 DeviceAggregationThread.cpp:343] Trying to aggregate device [/win/midi/mm/Microsoft GS Wavetable Synth/ac8c1f26cb28915b?pid=0000&unique_group=ac8c1f26cb289159&vid=0000&direction=out], attempt [1], attempts to go [119]
+I0622 20:02:26.091223  4568 DeviceAggregationThread.cpp:343] Trying to aggregate device [0582_0205_0000#0], attempt [1], attempts to go [119]
+I0622 20:02:26.092247 10992 DeviceConnectionInfoTask.cpp:48] New USB device plugged-in: Roland DJ-202
+I0622 20:02:26.092247 10992 Globals.cpp:4236] Roland DJ-202 hardware connecting. This can take up to one minute.
+I0622 20:02:26.095266  2776 Globals.cpp:4236] Loading: Song Database
+I0622 20:02:26.096194 11980 Globals.cpp:1328] Finished Scanning Libraries
+I0622 20:02:26.298635 15692 HidapiConnectionFactory.cpp:67] Refreshed HID connection list and hid_enumerate() called
+I0622 20:02:26.298635 15692 HidConnectionList.cpp:50] New HID Connection from the module: \\?\hid#intc816&col01#3&36a7043c&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+I0622 20:02:26.298635 15692 HidConnectionList.cpp:50] New HID Connection from the module: \\?\hid#intc816&col02#3&36a7043c&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+I0622 20:02:26.298635 15692 HidConnectionList.cpp:50] New HID Connection from the module: \\?\hid#syna2393&col01#5&1f439a5f&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+I0622 20:02:26.298635 15692 HidConnectionList.cpp:50] New HID Connection from the module: \\?\hid#syna2393&col02#5&1f439a5f&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+I0622 20:02:26.298635 15692 HidConnectionList.cpp:50] New HID Connection from the module: \\?\hid#syna2393&col03#5&1f439a5f&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}
+I0622 20:02:26.298635 15692 HidConnectionList.cpp:50] New HID Connection from the module: \\?\hid#converteddevice&col02#5&379854aa&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+I0622 20:02:26.298635 15692 HidConnectionList.cpp:50] New HID Connection from the module: \\?\hid#syna2393&col04#5&1f439a5f&0&0003#{4d1e55b2-f16f-11cf-88cb-001111000030}
+I0622 20:02:26.298635 15692 HidConnectionList.cpp:50] New HID Connection from the module: \\?\hid#converteddevice&col03#5&379854aa&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}
+I0622 20:02:26.298635 15692 HidConnectionList.cpp:50] New HID Connection from the module: \\?\hid#converteddevice&col01#5&379854aa&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}\kbd
+I0622 20:02:26.591886 18148 DeviceAggregationThread.cpp:343] Trying to aggregate device [/win/midi/mm/Microsoft GS Wavetable Synth/ac8c1f26cb28915b?pid=0000&unique_group=ac8c1f26cb289159&vid=0000&direction=out], attempt [2], attempts to go [118]
+I0622 20:02:26.592880  4568 DeviceAggregationThread.cpp:343] Trying to aggregate device [0582_0205_0000#0], attempt [2], attempts to go [118]
+E0622 20:02:27.002781 18248 HangDetect.cpp:475] Hang Detected - Recoverable | Hang Phase Normal operation | Main Thread | Duration: 10146 ms
+I0622 20:02:27.076586  8224 :0] [Device] Dispatching 2 MIDI connection events.
+I0622 20:02:27.076586  8224 MidiConnectionList.cpp:55] New MIDI Connection from the module: /win/midi/mm/DJ-202/da2cc4398c81bab9?pid=0205&unique_group=da2cc4398c81bab8&vid=0582&direction=duplex
+I0622 20:02:27.081576  8224 MidiConnectionList.cpp:55] New MIDI Connection from the module: /win/midi/mm/Microsoft GS Wavetable Synth/ac8c1f26cb28915b?pid=0000&unique_group=ac8c1f26cb289159&vid=0000&direction=out
+I0622 20:02:27.092541 18148 DeviceAggregationThread.cpp:343] Trying to aggregate device [/win/midi/mm/Microsoft GS Wavetable Synth/ac8c1f26cb28915b?pid=0000&unique_group=ac8c1f26cb289159&vid=0000&direction=out], attempt [3], attempts to go [117]
+I0622 20:02:27.092541 18148 DeviceAggregationThread.cpp:356] Got MIDI connection [/win/midi/mm/Microsoft GS Wavetable Synth/ac8c1f26cb28915b?pid=0000&unique_group=ac8c1f26cb289159&vid=0000&direction=out]
+I0622 20:02:27.092541  7032 DeviceManager.cpp:191] Device Added: Microsoft GS Wavetable Synth
+I0622 20:02:27.093539  4568 DeviceAggregationThread.cpp:343] Trying to aggregate device [0582_0205_0000#0], attempt [3], attempts to go [117]
+I0622 20:02:27.093539  4568 DeviceAggregationThread.cpp:377] Got MIDI connection [/win/midi/mm/DJ-202/da2cc4398c81bab9?pid=0205&unique_group=da2cc4398c81bab8&vid=0582&direction=duplex]
+I0622 20:02:27.093539  7032 DeviceManager.cpp:191] Device Added: DJ-202
+I0622 20:02:27.093539 14316 CMIDIManager.cpp:2732] New MIDI connection: DJ-202
+I0622 20:02:27.257108  2776 Globals.cpp:4236] Finished Loading: Song Database
+I0622 20:02:27.258074  2776 Globals.cpp:4236] Loading Crates: gem jam windup
+I0622 20:02:27.267082  2776 Globals.cpp:4236] Loading Crates: hoakdaddy
+I0622 20:02:27.274058  2776 Globals.cpp:4236] Loading Crates: JC Lib
+I0622 20:02:27.293052  2776 Globals.cpp:4236] Loading Crates: Library
+I0622 20:02:27.305970  2776 Globals.cpp:4236] Loading Crates: pjLib
+I0622 20:02:27.322926  2776 Globals.cpp:4236] Loading Crates: Recorded
+I0622 20:02:27.330905  2776 Globals.cpp:4236] Loading Crates: TY Selects%%fucking dirty
+I0622 20:02:27.337885  2776 Globals.cpp:4236] Loading Crates: TY Selects%%house
+I0622 20:02:27.350884  2776 Globals.cpp:4236] Loading Crates: TY Selects%%intros
+I0622 20:02:27.357832  2776 Globals.cpp:4236] Loading Crates: TY Selects%%progressive
+I0622 20:02:27.366816  2776 Globals.cpp:4236] Loading Crates: TY Selects%%techno
+I0622 20:02:27.374788  2776 Globals.cpp:4236] Loading Crates: TY Selects%%weird
+I0622 20:02:27.382735  2776 Globals.cpp:4236] Loading Crates: TY Selects
+I0622 20:02:27.400717  2776 Globals.cpp:4236] Loading Crates
+I0622 20:02:27.401715  2776 Globals.cpp:4236] Loading: Review database
+I0622 20:02:27.603178 11980 Globals.cpp:4236] Library update complete
+E0622 20:02:27.919020 11980 SeratoQtLoggingOutputHandler.cpp:160] QWindowsMultiFontEngine::loadEngine: CreateFontFromLOGFONT failed ()
+E0622 20:02:27.919020 11980 SeratoQtLoggingOutputHandler.cpp:187] QTLog : QWindowsMultiFontEngine::loadEngine: CreateFontFromLOGFONT failed ()
+I0622 20:02:28.303023 11980 :0] [Device] RtMidiInConnection : Open : name=DJ-202, address=/win/midi/mm/DJ-202/da2cc4398c81bab9?pid=0205&unique_group=da2cc4398c81bab8&vid=0582
+I0622 20:02:28.303987 11980 :0] [Device] RtMidiInConnection : Open : opening port
+I0622 20:02:28.306979 11980 :0] [Device] RtMidiOutConnection : Open : name=DJ-202, address=/win/midi/mm/DJ-202/da2cc4398c81baba?pid=0205&unique_group=da2cc4398c81bab8&vid=0582
+I0622 20:02:28.307976 11980 :0] [Device] RtMidiOutConnection : Open : opening port
+I0622 20:02:28.450626 11980 CMIDIManager.cpp:333] MIDI input manager added : id<>
+I0622 20:02:28.612274 11980 CNativeMixer.cpp:2404] CNativeMixer : kConnectedMode
+I0622 20:02:28.612274 11980 CNativeMixer.cpp:2411] CNativeMixer : kConnectedMode : hardware=DJ-202
+I0622 20:02:28.612274 11980 CNativeMixer.cpp:2417] CNativeMixer : kConnectedMode : Going into Connected Mode
+I0622 20:02:28.619143 11980 CNativeMixer.cpp:2879] CNativeMixer : stopping current connection
+I0622 20:02:28.619143 11980 CNativeMixer.cpp:2885] CNativeMixer : disable audio thread timer
+I0622 20:02:28.619143 11980 CNativeMixer.cpp:2426] CNativeMixer : kConnectedMode : disconnecting standalone player
+I0622 20:02:28.631145 11660 CSongReviewManager.cpp:1613] CQNAE0001
+I0622 20:02:28.910365 11980 CStandalonePlayer.cpp:368] CStandalonePlayer_OneDeck : disable audio thread timer
+I0622 20:02:28.910365 11980 CNativeMixer.cpp:2429] CNativeMixer : kConnectedMode : destroying mix architecture
+I0622 20:02:28.911378 11980 CNativeMixer.cpp:2523] CNativeMixer : kConnectedMode : creating mix architecture
+I0622 20:02:28.911378 11980 CNativeMixer.cpp:371] Setting up mix architecture
+I0622 20:02:28.954263 11980 CNativeMixer.cpp:2532] CNativeMixer : kConnectedMode : try start audio connection for DJ-202
+I0622 20:02:28.954263 11980 CNativeMixer.cpp:3651] CNativeMixer : TryStartAudioConnection : try to start audio for: DJ-202
+I0622 20:02:28.954263 11980 CNativeMixer.cpp:3755] CNativeMixer : StartAudioConnection : starting audio connection to device: DJ-202
+I0622 20:02:28.954263 11980 CNativeMixer.cpp:3837] CNativeMixer : StartAudioConnection : device=DJ-202
+I0622 20:02:28.954263 11980 CNativeMixer.cpp:2879] CNativeMixer : stopping current connection
+I0622 20:02:28.954263 11980 CNativeMixer.cpp:2885] CNativeMixer : disable audio thread timer
+I0622 20:02:28.954263 11980 CNativeMixer.cpp:3856] CNativeMixer : StartAudioConnection : attempting to get connection by name=DJ-202 ASIO
+I0622 20:02:28.958250 15580 Globals.cpp:4236] Cue Mix: 100%
+I0622 20:02:29.037060 11980 PortAudioConnectionFactory.cpp:124] ASIO drivers count for 'DJ-202 ASIO': 1
+I0622 20:02:29.037060 11980 CNativeMixer.cpp:3870] CNativeMixer : StartAudioConnection : connection attempt count 1 for win audio device name DJ-202 ASIO
+I0622 20:02:29.037060 11980 CNativeMixer.cpp:3901] CNativeMixer : StartAudioConnection : current connection
+I0622 20:02:29.037060 11980 CNativeMixer.cpp:3921] CNativeMixer : StartAudioConnection : The recommended connection latency for high performance audio is [5.33333] ms
+I0622 20:02:29.038055 11980 CNativeMixer.cpp:3982] CNativeMixer : StartAudioConnection : setting callbacks, allocating buffers
+I0622 20:02:29.038055 11980 CNativeMixer.cpp:2725] Allocating buffer with size [256], for latency [5.33333] ms
+I0622 20:02:29.038055 11980 CNativeMixer.cpp:3994] CNativeMixer : StartAudioConnection : starting current connection (Win)
+I0622 20:02:29.038055 11980 CPortAudio.cpp:927] CPortAudio : PortAudioStart
+I0622 20:02:29.038055 11980 CPortAudio.cpp:930] CPortAudio : PortAudioStart : device=DJ-202 ASIO
+I0622 20:02:29.038055 11980 CPortAudio.cpp:954] CPortAudio : PortAudioStart : initialize
+I0622 20:02:29.066984 11980 CPortAudio.cpp:962] ASIO drivers count for 'DJ-202 ASIO': 1
+I0622 20:02:29.066984 11980 CPortAudio.cpp:972] CPortAudio : PortAudioStart : PortAudio initialize succeeded
+I0622 20:02:29.066984 11980 CPortAudio.cpp:1189] Connecting to device with sample rate [48000] and buffer size [256].
+I0622 20:02:29.067943 11980 CPortAudio.cpp:1300] CPortAudio : PortAudioStart : creating buffers
+I0622 20:02:29.077036 11980 CNativeMixer.cpp:2909] CNativeMixer : enable audio thread timer
+I0622 20:02:29.077036 11980 CNativeMixer.cpp:4146] CNativeMixer : StartAudioConnection : Audio Connection to Device: DJ-202 succeeded
+I0622 20:02:29.077036 11980 CNativeMixer.cpp:3655] CNativeMixer : TryStartAudioConnection : start audio connection success
+I0622 20:02:29.089916 11980 CTurntableDecoder.cpp:3713] Decoder [0] output sampling set to [48000]
+I0622 20:02:29.089916 11980 CTurntableDecoder.cpp:3713] Decoder [1] output sampling set to [48000]
+I0622 20:02:29.089916 11980 CTurntableDecoder.cpp:3713] Decoder [2] output sampling set to [48000]
+I0622 20:02:29.089916 11980 CTurntableDecoder.cpp:3713] Decoder [3] output sampling set to [48000]
+I0622 20:02:29.089916 11980 CTurntableDecoder.cpp:3713] Decoder [0] output sampling set to [48000]
+I0622 20:02:29.089916 11980 CTurntableDecoder.cpp:3713] Decoder [1] output sampling set to [48000]
+I0622 20:02:29.089916 11980 CTurntableDecoder.cpp:3713] Decoder [2] output sampling set to [48000]
+I0622 20:02:29.089916 11980 CTurntableDecoder.cpp:3713] Decoder [3] output sampling set to [48000]
+I0622 20:02:29.089916 11980 CTurntableDecoder.cpp:3713] Decoder [4] output sampling set to [48000]
+I0622 20:02:29.089916 11980 CTurntableDecoder.cpp:3713] Decoder [5] output sampling set to [48000]
+I0622 20:02:29.089916 11980 CTurntableDecoder.cpp:3713] Decoder [6] output sampling set to [48000]
+I0622 20:02:29.089916 11980 CTurntableDecoder.cpp:3713] Decoder [7] output sampling set to [48000]
+I0622 20:02:29.214551 12624 CMIDIOutputManager.cpp:334] longest idle time for active message: 256
+I0622 20:02:29.474887 12624 CMIDIOutputManager.cpp:334] longest idle time for active message: 261
+I0622 20:02:29.516746  5276 CGUISeratoBeatBuffer.cpp:571] CGUISeratoBeatBuffer:: Shader compiled
+I0622 20:02:29.528713  5276 CGUISeratoBeatBuffer.cpp:571] CGUISeratoBeatBuffer:: Shader compiled
+I0622 20:02:29.548660  5276 CGUISeratoWaveformRenderer.cpp:327] CGUISeratoWaveformRenderer:: Shader compiled
+I0622 20:02:29.557636  5276 CGUISeratoWaveformRenderer.cpp:327] CGUISeratoWaveformRenderer:: Shader compiled
+I0622 20:02:29.578579  5276 CGUISeratoWaveformRenderer.cpp:327] CGUISeratoWaveformRenderer:: Shader compiled
+I0622 20:02:29.586558  5276 CGUISeratoWaveformRenderer.cpp:327] CGUISeratoWaveformRenderer:: Shader compiled
+I0622 20:02:34.350973 12624 CMIDIOutputManager.cpp:334] longest idle time for active message: 267
+I0622 20:02:54.491133 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 140 201.301 238.689 368.676 1280
+I0622 20:02:54.491999 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Offline Total: 220 386.667 463.077 544.444 1280
+I0622 20:02:56.106648  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 317 average: 94.8861) -15167.7 -10317.2 -5468.03 -931.605 3507.34
+I0622 20:03:22.845225 12624 CMIDIOutputManager.cpp:334] longest idle time for active message: 268
+I0622 20:03:24.492750 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 160 302.824 454.316 529.557 1280
+I0622 20:03:26.338842  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1373 average: 21.8586) 21.8586 1766.95 3517.05 5267.32 7005.17
+I0622 20:03:54.493770 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 200 620.421 842.359 1011.4 1280
+I0622 20:03:56.370198  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1790 average: 16.768) -133.747 -88.0377 -42.0052 3.20525 48.4997
+I0622 20:04:03.835547 12624 CMIDIOutputManager.cpp:334] longest idle time for active message: 271
+I0622 20:04:04.234326 15580 Globals.cpp:4236] Cue Mix: 99%
+I0622 20:04:04.242260 15580 Globals.cpp:4236] Cue Mix: 98%
+I0622 20:04:04.250242 15580 Globals.cpp:4236] Cue Mix: 97%
+I0622 20:04:04.258255 15580 Globals.cpp:4236] Cue Mix: 95%
+I0622 20:04:04.266537 15580 Globals.cpp:4236] Cue Mix: 94%
+I0622 20:04:04.273411 15580 Globals.cpp:4236] Cue Mix: 91%
+I0622 20:04:04.281388 15580 Globals.cpp:4236] Cue Mix: 88%
+I0622 20:04:04.289355 15580 Globals.cpp:4236] Cue Mix: 86%
+I0622 20:04:04.297690 15580 Globals.cpp:4236] Cue Mix: 83%
+I0622 20:04:04.306311 15580 Globals.cpp:4236] Cue Mix: 81%
+I0622 20:04:04.313256 15580 Globals.cpp:4236] Cue Mix: 79%
+I0622 20:04:04.321286 15580 Globals.cpp:4236] Cue Mix: 77%
+I0622 20:04:04.329622 15580 Globals.cpp:4236] Cue Mix: 75%
+I0622 20:04:04.338227 15580 Globals.cpp:4236] Cue Mix: 72%
+I0622 20:04:04.346212 15580 Globals.cpp:4236] Cue Mix: 71%
+I0622 20:04:04.354190 15580 Globals.cpp:4236] Cue Mix: 69%
+I0622 20:04:04.362164 15580 Globals.cpp:4236] Cue Mix: 67%
+I0622 20:04:04.370143 15580 Globals.cpp:4236] Cue Mix: 65%
+I0622 20:04:04.378278 15580 Globals.cpp:4236] Cue Mix: 65%
+I0622 20:04:04.386293 15580 Globals.cpp:4236] Cue Mix: 63%
+I0622 20:04:04.393534 15580 Globals.cpp:4236] Cue Mix: 62%
+I0622 20:04:04.401369 15580 Globals.cpp:4236] Cue Mix: 61%
+I0622 20:04:04.409231 15580 Globals.cpp:4236] Cue Mix: 59%
+I0622 20:04:04.418210 15580 Globals.cpp:4236] Cue Mix: 58%
+I0622 20:04:04.426270 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:04:04.434125 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:04:04.441154 15580 Globals.cpp:4236] Cue Mix: 56%
+I0622 20:04:04.449353 15580 Globals.cpp:4236] Cue Mix: 55%
+I0622 20:04:04.457100 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:04:04.466306 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:04:04.473073 15580 Globals.cpp:4236] Cue Mix: 53%
+I0622 20:04:04.482002 15580 Globals.cpp:4236] Cue Mix: 52%
+I0622 20:04:04.489557 15580 Globals.cpp:4236] Cue Mix: 52%
+I0622 20:04:04.497961 15580 Globals.cpp:4236] Cue Mix: 51%
+I0622 20:04:04.505982 15580 Globals.cpp:4236] Cue Mix: 50%
+I0622 20:04:04.513988 15580 Globals.cpp:4236] Cue Mix: 50%
+I0622 20:04:20.806195 15580 Globals.cpp:4236] Cue Mix: 52%
+I0622 20:04:20.814225 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:04:20.822203 15580 Globals.cpp:4236] Cue Mix: 55%
+I0622 20:04:20.830128 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:04:20.838162 15580 Globals.cpp:4236] Cue Mix: 58%
+I0622 20:04:20.846132 15580 Globals.cpp:4236] Cue Mix: 60%
+I0622 20:04:20.854352 15580 Globals.cpp:4236] Cue Mix: 61%
+I0622 20:04:20.862087 15580 Globals.cpp:4236] Cue Mix: 63%
+I0622 20:04:20.870455 15580 Globals.cpp:4236] Cue Mix: 65%
+I0622 20:04:20.878582 15580 Globals.cpp:4236] Cue Mix: 67%
+I0622 20:04:20.886373 15580 Globals.cpp:4236] Cue Mix: 69%
+I0622 20:04:20.894366 15580 Globals.cpp:4236] Cue Mix: 72%
+I0622 20:04:20.902315 15580 Globals.cpp:4236] Cue Mix: 75%
+I0622 20:04:20.910334 15580 Globals.cpp:4236] Cue Mix: 78%
+I0622 20:04:20.918310 15580 Globals.cpp:4236] Cue Mix: 81%
+I0622 20:04:20.926468 15580 Globals.cpp:4236] Cue Mix: 84%
+I0622 20:04:20.934293 15580 Globals.cpp:4236] Cue Mix: 87%
+I0622 20:04:20.942204 15580 Globals.cpp:4236] Cue Mix: 91%
+I0622 20:04:20.950749 15580 Globals.cpp:4236] Cue Mix: 94%
+I0622 20:04:20.958163 15580 Globals.cpp:4236] Cue Mix: 96%
+I0622 20:04:20.966393 15580 Globals.cpp:4236] Cue Mix: 98%
+I0622 20:04:20.974117 15580 Globals.cpp:4236] Cue Mix: 98%
+I0622 20:04:20.983094 15580 Globals.cpp:4236] Cue Mix: 100%
+I0622 20:04:20.990077 15580 Globals.cpp:4236] Cue Mix: 100%
+I0622 20:04:24.493178 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 340 780.814 880.342 1008.7 1280
+I0622 20:04:26.399890  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6647) 15.9666 16.8358 17.0109 17.2405 18.9592
+I0622 20:04:54.492635 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 847.131 993.493 1121.33 1280
+I0622 20:04:56.431622  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1799 average: 16.684) 4.37437 13.6283 21.0182 29.4743 38.4607
+I0622 20:05:24.494287 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 280 836.712 992.239 1207.69 1280
+I0622 20:05:26.461439  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6649) 15.4876 16.4957 16.8223 17.0868 18.7609
+I0622 20:05:54.497493 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 929.813 1040.69 1216.9 1280
+I0622 20:05:56.492650  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6656) 15.0277 16.3405 16.6734 16.981 18.9921
+I0622 20:06:24.510104 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 320 860.075 947.68 1068.44 1280
+I0622 20:06:26.522076  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6648) 15.6059 16.3839 16.579 16.7829 18.2783
+I0622 20:06:54.510103 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 440 891.356 957.437 1022.11 1280
+I0622 20:06:56.552476  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1800 average: 16.6743) 5.96626 10.124 14.2349 18.5443 23.6207
+I0622 20:07:24.509061 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 420 867.508 935.417 993.575 1280
+I0622 20:07:26.583353  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6653) 15.4604 16.0193 16.2108 16.4073 18.7477
+I0622 20:07:54.519259 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 400 868.075 944.091 1032.72 1280
+I0622 20:07:56.613443  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6646) 15.4259 16.1677 16.3638 16.5895 17.9757
+I0622 20:08:24.517282 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 400 974.667 1057.33 1260.17 1280
+I0622 20:08:26.643337  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.665) 15.92 16.7385 16.9084 17.1204 18.7488
+I0622 20:08:54.513195 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 400 959.586 1044.37 1175.41 1280
+I0622 20:08:56.674077  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1798 average: 16.6929) -8.03829 4.57442 14.2758 23.2945 36.1652
+I0622 20:09:24.527067 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 420 972.091 1059.56 1186.24 1280
+I0622 20:09:26.704015  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1797 average: 16.702) 7.58991 15.3294 21.0444 28.9375 44.8314
+I0622 20:09:30.061684 12096 Globals.cpp:4236] Writing Tags: C:\Users\tdsan\Downloads\mp3FromPy\Doorly - Disco Bango.mp3
+I0622 20:09:41.856519 15580 Globals.cpp:4236] Cue Mix: 99%
+I0622 20:09:41.865032 15580 Globals.cpp:4236] Cue Mix: 98%
+I0622 20:09:41.873479 15580 Globals.cpp:4236] Cue Mix: 98%
+I0622 20:09:41.881150 15580 Globals.cpp:4236] Cue Mix: 97%
+I0622 20:09:41.889076 15580 Globals.cpp:4236] Cue Mix: 96%
+I0622 20:09:41.897002 15580 Globals.cpp:4236] Cue Mix: 94%
+I0622 20:09:41.905027 15580 Globals.cpp:4236] Cue Mix: 93%
+I0622 20:09:41.912959 15580 Globals.cpp:4236] Cue Mix: 92%
+I0622 20:09:41.920940 15580 Globals.cpp:4236] Cue Mix: 91%
+I0622 20:09:41.928970 15580 Globals.cpp:4236] Cue Mix: 88%
+I0622 20:09:41.936941 15580 Globals.cpp:4236] Cue Mix: 87%
+I0622 20:09:41.944873 15580 Globals.cpp:4236] Cue Mix: 84%
+I0622 20:09:41.952903 15580 Globals.cpp:4236] Cue Mix: 83%
+I0622 20:09:41.960876 15580 Globals.cpp:4236] Cue Mix: 82%
+I0622 20:09:41.968808 15580 Globals.cpp:4236] Cue Mix: 80%
+I0622 20:09:41.976831 15580 Globals.cpp:4236] Cue Mix: 79%
+I0622 20:09:41.984447 15580 Globals.cpp:4236] Cue Mix: 78%
+I0622 20:09:41.993415 15580 Globals.cpp:4236] Cue Mix: 76%
+I0622 20:09:42.000563 15580 Globals.cpp:4236] Cue Mix: 76%
+I0622 20:09:42.008378 15580 Globals.cpp:4236] Cue Mix: 75%
+I0622 20:09:42.016644 15580 Globals.cpp:4236] Cue Mix: 74%
+I0622 20:09:42.024871 15580 Globals.cpp:4236] Cue Mix: 72%
+I0622 20:09:42.033483 15580 Globals.cpp:4236] Cue Mix: 72%
+I0622 20:09:42.040282 15580 Globals.cpp:4236] Cue Mix: 71%
+I0622 20:09:42.048457 15580 Globals.cpp:4236] Cue Mix: 70%
+I0622 20:09:42.056198 15580 Globals.cpp:4236] Cue Mix: 69%
+I0622 20:09:42.064556 15580 Globals.cpp:4236] Cue Mix: 69%
+I0622 20:09:42.073273 15580 Globals.cpp:4236] Cue Mix: 68%
+I0622 20:09:42.080178 15580 Globals.cpp:4236] Cue Mix: 67%
+I0622 20:09:42.088117 15580 Globals.cpp:4236] Cue Mix: 66%
+I0622 20:09:42.096551 15580 Globals.cpp:4236] Cue Mix: 65%
+I0622 20:09:42.104118 15580 Globals.cpp:4236] Cue Mix: 64%
+I0622 20:09:42.113230 15580 Globals.cpp:4236] Cue Mix: 63%
+I0622 20:09:42.120035 15580 Globals.cpp:4236] Cue Mix: 63%
+I0622 20:09:42.129058 15580 Globals.cpp:4236] Cue Mix: 62%
+I0622 20:09:42.136029 15580 Globals.cpp:4236] Cue Mix: 61%
+I0622 20:09:42.144147 15580 Globals.cpp:4236] Cue Mix: 61%
+I0622 20:09:42.153982 15580 Globals.cpp:4236] Cue Mix: 60%
+I0622 20:09:42.160521 15580 Globals.cpp:4236] Cue Mix: 59%
+I0622 20:09:42.168897 15580 Globals.cpp:4236] Cue Mix: 58%
+I0622 20:09:42.175879 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:09:42.184314 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:09:42.193123 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:09:42.200310 15580 Globals.cpp:4236] Cue Mix: 56%
+I0622 20:09:42.208495 15580 Globals.cpp:4236] Cue Mix: 55%
+I0622 20:09:42.217020 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:09:42.224316 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:09:42.233983 15580 Globals.cpp:4236] Cue Mix: 53%
+I0622 20:09:42.240006 15580 Globals.cpp:4236] Cue Mix: 53%
+I0622 20:09:42.248991 15580 Globals.cpp:4236] Cue Mix: 52%
+I0622 20:09:42.256494 15580 Globals.cpp:4236] Cue Mix: 52%
+I0622 20:09:42.263947 15580 Globals.cpp:4236] Cue Mix: 51%
+I0622 20:09:42.272868 15580 Globals.cpp:4236] Cue Mix: 51%
+I0622 20:09:42.279902 15580 Globals.cpp:4236] Cue Mix: 50%
+I0622 20:09:42.288869 15580 Globals.cpp:4236] Cue Mix: 50%
+I0622 20:09:54.526273 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 400 832.287 961.168 1166.09 1280
+I0622 20:09:56.735010  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1788 average: 16.7862) -14.6544 14.8954 41.0488 67.189 95.0467
+I0622 20:10:06.511610 15580 Globals.cpp:4236] Cue Mix: 52%
+I0622 20:10:06.519330 15580 Globals.cpp:4236] Cue Mix: 56%
+I0622 20:10:06.527314 15580 Globals.cpp:4236] Cue Mix: 60%
+I0622 20:10:06.535421 15580 Globals.cpp:4236] Cue Mix: 65%
+I0622 20:10:06.544215 15580 Globals.cpp:4236] Cue Mix: 71%
+I0622 20:10:06.551242 15580 Globals.cpp:4236] Cue Mix: 77%
+I0622 20:10:06.559670 15580 Globals.cpp:4236] Cue Mix: 83%
+I0622 20:10:06.567319 15580 Globals.cpp:4236] Cue Mix: 91%
+I0622 20:10:06.575353 15580 Globals.cpp:4236] Cue Mix: 96%
+I0622 20:10:06.584149 15580 Globals.cpp:4236] Cue Mix: 99%
+I0622 20:10:06.591145 15580 Globals.cpp:4236] Cue Mix: 100%
+I0622 20:10:24.525382 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 480 928.232 999.265 1206.79 1280
+I0622 20:10:26.765312  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1800 average: 16.6742) 7.61346 11.5305 15.9911 19.8921 24.5951
+I0622 20:10:54.534322 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 400 943.553 1015.16 1181.13 1280
+I0622 20:10:56.795121  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6648) 15.5422 16.3911 16.5826 16.791 18.3863
+I0622 20:11:24.531772 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 917.319 982.24 1088.69 1280
+I0622 20:11:26.824960  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6647) 15.5228 16.2578 16.4858 16.6498 17.477
+I0622 20:11:54.528533 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 560 944.318 1074.53 1235.35 1280
+I0622 20:11:56.855237  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6648) 16.0694 16.7682 17.0062 17.2095 18.0022
+I0622 20:12:18.180599 15356 Globals.cpp:4236] Writing Tags: C:\Users\tdsan\Music\Library\Cristoph - Genesis (Original Mix) [TRUESOUL].mp3
+I0622 20:12:24.344215 11660 CSongReviewManager.cpp:1613] CQNAE0001
+I0622 20:12:24.540410 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 822.045 961.414 1115.96 1280
+I0622 20:12:26.885540  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1795 average: 16.7206) -29.0758 -6.77854 6.93858 20.4072 49.9948
+I0622 20:12:28.880458 15580 Globals.cpp:4236] Cue Mix: 99%
+I0622 20:12:28.904376 15580 Globals.cpp:4236] Cue Mix: 99%
+I0622 20:12:28.920564 15580 Globals.cpp:4236] Cue Mix: 98%
+I0622 20:12:28.944288 15580 Globals.cpp:4236] Cue Mix: 98%
+I0622 20:12:28.960667 15580 Globals.cpp:4236] Cue Mix: 98%
+I0622 20:12:28.968664 15580 Globals.cpp:4236] Cue Mix: 97%
+I0622 20:12:28.977620 15580 Globals.cpp:4236] Cue Mix: 97%
+I0622 20:12:28.992626 15580 Globals.cpp:4236] Cue Mix: 96%
+I0622 20:12:29.000592 15580 Globals.cpp:4236] Cue Mix: 96%
+I0622 20:12:29.008581 15580 Globals.cpp:4236] Cue Mix: 95%
+I0622 20:12:29.016551 15580 Globals.cpp:4236] Cue Mix: 95%
+I0622 20:12:29.024531 15580 Globals.cpp:4236] Cue Mix: 94%
+I0622 20:12:29.032474 15580 Globals.cpp:4236] Cue Mix: 94%
+I0622 20:12:29.040450 15580 Globals.cpp:4236] Cue Mix: 94%
+I0622 20:12:29.048691 15580 Globals.cpp:4236] Cue Mix: 93%
+I0622 20:12:29.056409 15580 Globals.cpp:4236] Cue Mix: 92%
+I0622 20:12:29.064425 15580 Globals.cpp:4236] Cue Mix: 91%
+I0622 20:12:29.072365 15580 Globals.cpp:4236] Cue Mix: 91%
+I0622 20:12:29.080387 15580 Globals.cpp:4236] Cue Mix: 90%
+I0622 20:12:29.088331 15580 Globals.cpp:4236] Cue Mix: 88%
+I0622 20:12:29.097335 15580 Globals.cpp:4236] Cue Mix: 87%
+I0622 20:12:29.104321 15580 Globals.cpp:4236] Cue Mix: 85%
+I0622 20:12:29.112454 15580 Globals.cpp:4236] Cue Mix: 84%
+I0622 20:12:29.120282 15580 Globals.cpp:4236] Cue Mix: 83%
+I0622 20:12:29.128379 15580 Globals.cpp:4236] Cue Mix: 82%
+I0622 20:12:29.137233 15580 Globals.cpp:4236] Cue Mix: 81%
+I0622 20:12:29.144227 15580 Globals.cpp:4236] Cue Mix: 80%
+I0622 20:12:29.152155 15580 Globals.cpp:4236] Cue Mix: 80%
+I0622 20:12:29.160401 15580 Globals.cpp:4236] Cue Mix: 78%
+I0622 20:12:29.168190 15580 Globals.cpp:4236] Cue Mix: 77%
+I0622 20:12:29.177088 15580 Globals.cpp:4236] Cue Mix: 76%
+I0622 20:12:29.184374 15580 Globals.cpp:4236] Cue Mix: 75%
+I0622 20:12:29.192087 15580 Globals.cpp:4236] Cue Mix: 73%
+I0622 20:12:29.200063 15580 Globals.cpp:4236] Cue Mix: 72%
+I0622 20:12:29.208004 15580 Globals.cpp:4236] Cue Mix: 71%
+I0622 20:12:29.217242 15580 Globals.cpp:4236] Cue Mix: 69%
+I0622 20:12:29.224198 15580 Globals.cpp:4236] Cue Mix: 68%
+I0622 20:12:29.231978 15580 Globals.cpp:4236] Cue Mix: 66%
+I0622 20:12:29.240916 15580 Globals.cpp:4236] Cue Mix: 65%
+I0622 20:12:29.247937 15580 Globals.cpp:4236] Cue Mix: 64%
+I0622 20:12:29.256911 15580 Globals.cpp:4236] Cue Mix: 62%
+I0622 20:12:29.263967 15580 Globals.cpp:4236] Cue Mix: 61%
+I0622 20:12:29.271992 15580 Globals.cpp:4236] Cue Mix: 60%
+I0622 20:12:29.279961 15580 Globals.cpp:4236] Cue Mix: 59%
+I0622 20:12:29.287901 15580 Globals.cpp:4236] Cue Mix: 58%
+I0622 20:12:29.296929 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:12:29.303946 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:12:29.311877 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:12:29.319834 15580 Globals.cpp:4236] Cue Mix: 56%
+I0622 20:12:29.327838 15580 Globals.cpp:4236] Cue Mix: 55%
+I0622 20:12:29.337253 15580 Globals.cpp:4236] Cue Mix: 55%
+I0622 20:12:29.343799 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:12:29.351791 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:12:29.359709 15580 Globals.cpp:4236] Cue Mix: 53%
+I0622 20:12:29.367887 15580 Globals.cpp:4236] Cue Mix: 52%
+I0622 20:12:29.376899 15580 Globals.cpp:4236] Cue Mix: 52%
+I0622 20:12:29.383882 15580 Globals.cpp:4236] Cue Mix: 51%
+I0622 20:12:29.391818 15580 Globals.cpp:4236] Cue Mix: 50%
+I0622 20:12:29.399797 15580 Globals.cpp:4236] Cue Mix: 50%
+I0622 20:12:49.132175 15580 Globals.cpp:4236] Cue Mix: 51%
+I0622 20:12:49.139964 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:12:49.148126 15580 Globals.cpp:4236] Cue Mix: 58%
+I0622 20:12:49.156384 15580 Globals.cpp:4236] Cue Mix: 62%
+I0622 20:12:49.163903 15580 Globals.cpp:4236] Cue Mix: 68%
+I0622 20:12:49.172226 15580 Globals.cpp:4236] Cue Mix: 75%
+I0622 20:12:49.179857 15580 Globals.cpp:4236] Cue Mix: 82%
+I0622 20:12:49.187968 15580 Globals.cpp:4236] Cue Mix: 89%
+I0622 20:12:49.195889 15580 Globals.cpp:4236] Cue Mix: 95%
+I0622 20:12:49.203799 15580 Globals.cpp:4236] Cue Mix: 98%
+I0622 20:12:49.211773 15580 Globals.cpp:4236] Cue Mix: 100%
+I0622 20:12:54.542095 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 776.791 865.573 951.385 1280
+I0622 20:12:56.916911  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1778 average: 16.8807) -272.984 -189.301 -109.327 -24.536 59.8158
+I0622 20:13:24.551685 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 863.175 926.998 1014.15 1280
+I0622 20:13:26.946409  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6649) 15.689 16.4784 16.6528 16.8275 19.3483
+I0622 20:13:54.550357 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 842.109 923.15 982.424 1280
+I0622 20:13:56.977605  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6651) 15.4517 16.4104 16.5716 16.7494 17.9764
+I0622 20:14:24.547601 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 400 872.074 938.068 999.288 1280
+I0622 20:14:27.007495  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6647) 15.7592 16.6436 16.7988 17.0205 18.7834
+I0622 20:14:54.560503 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 857.9 936.259 1025.03 1280
+I0622 20:14:57.037952  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.665) 16.1216 16.8764 17.0081 17.1901 18.9427
+I0622 20:15:24.558351 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 480 921.341 994.14 1101.05 1280
+I0622 20:15:27.068536  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1800 average: 16.6746) 1.99226 7.13807 11.3637 15.7425 19.4337
+I0622 20:15:29.619791 16448 Globals.cpp:4236] Writing Tags: C:\Users\tdsan\Downloads\drop06132020\Reinier Zonneveld - Things We Might Have Said.mp3
+I0622 20:15:35.001205 15580 Globals.cpp:4236] Cue Mix: 99%
+I0622 20:15:35.009192 15580 Globals.cpp:4236] Cue Mix: 99%
+I0622 20:15:35.017109 15580 Globals.cpp:4236] Cue Mix: 98%
+I0622 20:15:35.025249 15580 Globals.cpp:4236] Cue Mix: 98%
+I0622 20:15:35.033108 15580 Globals.cpp:4236] Cue Mix: 97%
+I0622 20:15:35.041086 15580 Globals.cpp:4236] Cue Mix: 96%
+I0622 20:15:35.049273 15580 Globals.cpp:4236] Cue Mix: 94%
+I0622 20:15:35.057044 15580 Globals.cpp:4236] Cue Mix: 94%
+I0622 20:15:35.065184 15580 Globals.cpp:4236] Cue Mix: 92%
+I0622 20:15:35.073005 15580 Globals.cpp:4236] Cue Mix: 91%
+I0622 20:15:35.082137 15580 Globals.cpp:4236] Cue Mix: 89%
+I0622 20:15:35.088958 15580 Globals.cpp:4236] Cue Mix: 87%
+I0622 20:15:35.097102 15580 Globals.cpp:4236] Cue Mix: 85%
+I0622 20:15:35.104925 15580 Globals.cpp:4236] Cue Mix: 83%
+I0622 20:15:35.112895 15580 Globals.cpp:4236] Cue Mix: 82%
+I0622 20:15:35.120882 15580 Globals.cpp:4236] Cue Mix: 80%
+I0622 20:15:35.128854 15580 Globals.cpp:4236] Cue Mix: 79%
+I0622 20:15:35.136831 15580 Globals.cpp:4236] Cue Mix: 77%
+I0622 20:15:35.144819 15580 Globals.cpp:4236] Cue Mix: 76%
+I0622 20:15:35.152750 15580 Globals.cpp:4236] Cue Mix: 75%
+I0622 20:15:35.160960 15580 Globals.cpp:4236] Cue Mix: 73%
+I0622 20:15:35.168709 15580 Globals.cpp:4236] Cue Mix: 72%
+I0622 20:15:35.176687 15580 Globals.cpp:4236] Cue Mix: 71%
+I0622 20:15:35.184707 15580 Globals.cpp:4236] Cue Mix: 70%
+I0622 20:15:35.192641 15580 Globals.cpp:4236] Cue Mix: 69%
+I0622 20:15:35.200664 15580 Globals.cpp:4236] Cue Mix: 69%
+I0622 20:15:35.209161 15580 Globals.cpp:4236] Cue Mix: 68%
+I0622 20:15:35.217113 15580 Globals.cpp:4236] Cue Mix: 67%
+I0622 20:15:35.224555 15580 Globals.cpp:4236] Cue Mix: 66%
+I0622 20:15:35.232736 15580 Globals.cpp:4236] Cue Mix: 65%
+I0622 20:15:35.240512 15580 Globals.cpp:4236] Cue Mix: 65%
+I0622 20:15:35.248751 15580 Globals.cpp:4236] Cue Mix: 64%
+I0622 20:15:35.256569 15580 Globals.cpp:4236] Cue Mix: 64%
+I0622 20:15:35.264991 15580 Globals.cpp:4236] Cue Mix: 63%
+I0622 20:15:35.272554 15580 Globals.cpp:4236] Cue Mix: 62%
+I0622 20:15:35.280699 15580 Globals.cpp:4236] Cue Mix: 61%
+I0622 20:15:35.288483 15580 Globals.cpp:4236] Cue Mix: 61%
+I0622 20:15:35.296885 15580 Globals.cpp:4236] Cue Mix: 60%
+I0622 20:15:35.304390 15580 Globals.cpp:4236] Cue Mix: 59%
+I0622 20:15:35.312794 15580 Globals.cpp:4236] Cue Mix: 58%
+I0622 20:15:35.321346 15580 Globals.cpp:4236] Cue Mix: 58%
+I0622 20:15:35.328369 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:15:35.336344 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:15:35.344326 15580 Globals.cpp:4236] Cue Mix: 56%
+I0622 20:15:35.352844 15580 Globals.cpp:4236] Cue Mix: 55%
+I0622 20:15:35.361234 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:15:35.368752 15580 Globals.cpp:4236] Cue Mix: 53%
+I0622 20:15:35.376770 15580 Globals.cpp:4236] Cue Mix: 52%
+I0622 20:15:35.384712 15580 Globals.cpp:4236] Cue Mix: 51%
+I0622 20:15:35.392736 15580 Globals.cpp:4236] Cue Mix: 51%
+I0622 20:15:35.401711 15580 Globals.cpp:4236] Cue Mix: 50%
+I0622 20:15:35.408689 15580 Globals.cpp:4236] Cue Mix: 50%
+I0622 20:15:41.698566 15580 Globals.cpp:4236] Cue Mix: 51%
+I0622 20:15:41.706732 15580 Globals.cpp:4236] Cue Mix: 53%
+I0622 20:15:41.715571 15580 Globals.cpp:4236] Cue Mix: 55%
+I0622 20:15:41.722540 15580 Globals.cpp:4236] Cue Mix: 58%
+I0622 20:15:41.731525 15580 Globals.cpp:4236] Cue Mix: 62%
+I0622 20:15:41.738462 15580 Globals.cpp:4236] Cue Mix: 67%
+I0622 20:15:41.746604 15580 Globals.cpp:4236] Cue Mix: 72%
+I0622 20:15:41.754462 15580 Globals.cpp:4236] Cue Mix: 78%
+I0622 20:15:41.762449 15580 Globals.cpp:4236] Cue Mix: 84%
+I0622 20:15:41.771415 15580 Globals.cpp:4236] Cue Mix: 91%
+I0622 20:15:41.778551 15580 Globals.cpp:4236] Cue Mix: 97%
+I0622 20:15:41.786572 15580 Globals.cpp:4236] Cue Mix: 100%
+I0622 20:15:54.557310 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 340 833.756 930.442 1030.73 1280
+I0622 20:15:57.098599  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1764 average: 17.0144) -168.568 -61.6327 3.61256 127.251 243.87
+I0622 20:16:24.573547 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 884.022 959.903 1097.37 1280
+I0622 20:16:27.128777  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6649) 15.7743 16.5698 16.772 17.0091 17.8838
+I0622 20:16:54.564765 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 400 876.204 1011.6 1176.1 1280
+I0622 20:16:57.158928  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6648) 16.0547 16.7755 17.0229 17.2487 18.3133
+I0622 20:17:24.577652 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 280 792.987 901.548 1022.29 1280
+I0622 20:17:27.189905  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1796 average: 16.712) -29.522 -8.58143 12.6182 32.4868 49.1005
+I0622 20:17:54.449357  9080 Globals.cpp:4236] Writing Tags: C:\Users\tdsan\Downloads\mp3FromPy\Leftwing  - Kody - Go Back (Original Mix).mp3
+I0622 20:17:54.574429 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 320 816.651 931.363 1021.65 1280
+I0622 20:17:57.219604  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1798 average: 16.693) -28.4704 -16.2178 -3.67423 8.92548 20.729
+I0622 20:18:03.464063 15580 Globals.cpp:4236] Cue Mix: 99%
+I0622 20:18:03.471994 15580 Globals.cpp:4236] Cue Mix: 98%
+I0622 20:18:03.480013 15580 Globals.cpp:4236] Cue Mix: 97%
+I0622 20:18:03.487946 15580 Globals.cpp:4236] Cue Mix: 95%
+I0622 20:18:03.495925 15580 Globals.cpp:4236] Cue Mix: 94%
+I0622 20:18:03.503952 15580 Globals.cpp:4236] Cue Mix: 92%
+I0622 20:18:03.511880 15580 Globals.cpp:4236] Cue Mix: 89%
+I0622 20:18:03.519862 15580 Globals.cpp:4236] Cue Mix: 87%
+I0622 20:18:03.527880 15580 Globals.cpp:4236] Cue Mix: 84%
+I0622 20:18:03.535820 15580 Globals.cpp:4236] Cue Mix: 83%
+I0622 20:18:03.543959 15580 Globals.cpp:4236] Cue Mix: 81%
+I0622 20:18:03.551162 15580 Globals.cpp:4236] Cue Mix: 80%
+I0622 20:18:03.559996 15580 Globals.cpp:4236] Cue Mix: 79%
+I0622 20:18:03.567934 15580 Globals.cpp:4236] Cue Mix: 77%
+I0622 20:18:03.575964 15580 Globals.cpp:4236] Cue Mix: 76%
+I0622 20:18:03.583891 15580 Globals.cpp:4236] Cue Mix: 75%
+I0622 20:18:03.591928 15580 Globals.cpp:4236] Cue Mix: 74%
+I0622 20:18:03.599890 15580 Globals.cpp:4236] Cue Mix: 72%
+I0622 20:18:03.607857 15580 Globals.cpp:4236] Cue Mix: 72%
+I0622 20:18:03.615844 15580 Globals.cpp:4236] Cue Mix: 71%
+I0622 20:18:03.624781 15580 Globals.cpp:4236] Cue Mix: 70%
+I0622 20:18:03.631765 15580 Globals.cpp:4236] Cue Mix: 69%
+I0622 20:18:03.639789 15580 Globals.cpp:4236] Cue Mix: 68%
+I0622 20:18:03.647835 15580 Globals.cpp:4236] Cue Mix: 67%
+I0622 20:18:03.655812 15580 Globals.cpp:4236] Cue Mix: 66%
+I0622 20:18:03.664511 15580 Globals.cpp:4236] Cue Mix: 65%
+I0622 20:18:03.671797 15580 Globals.cpp:4236] Cue Mix: 65%
+I0622 20:18:03.679745 15580 Globals.cpp:4236] Cue Mix: 64%
+I0622 20:18:03.687778 15580 Globals.cpp:4236] Cue Mix: 64%
+I0622 20:18:03.695740 15580 Globals.cpp:4236] Cue Mix: 63%
+I0622 20:18:03.703722 15580 Globals.cpp:4236] Cue Mix: 62%
+I0622 20:18:03.711700 15580 Globals.cpp:4236] Cue Mix: 62%
+I0622 20:18:03.719668 15580 Globals.cpp:4236] Cue Mix: 61%
+I0622 20:18:03.727741 15580 Globals.cpp:4236] Cue Mix: 61%
+I0622 20:18:03.735594 15580 Globals.cpp:4236] Cue Mix: 61%
+I0622 20:18:03.744570 15580 Globals.cpp:4236] Cue Mix: 60%
+I0622 20:18:03.751271 15580 Globals.cpp:4236] Cue Mix: 59%
+I0622 20:18:03.759596 15580 Globals.cpp:4236] Cue Mix: 58%
+I0622 20:18:03.767184 15580 Globals.cpp:4236] Cue Mix: 58%
+I0622 20:18:03.775637 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:18:03.784145 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:18:03.791168 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:18:03.807615 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:18:03.815058 15580 Globals.cpp:4236] Cue Mix: 56%
+I0622 20:18:03.839182 15580 Globals.cpp:4236] Cue Mix: 56%
+I0622 20:18:03.864879 15580 Globals.cpp:4236] Cue Mix: 55%
+I0622 20:18:03.887457 15580 Globals.cpp:4236] Cue Mix: 55%
+I0622 20:18:03.904572 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:18:03.911365 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:18:03.927335 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:18:03.935261 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:18:03.944291 15580 Globals.cpp:4236] Cue Mix: 53%
+I0622 20:18:03.951364 15580 Globals.cpp:4236] Cue Mix: 53%
+I0622 20:18:03.959375 15580 Globals.cpp:4236] Cue Mix: 52%
+I0622 20:18:03.967365 15580 Globals.cpp:4236] Cue Mix: 52%
+I0622 20:18:03.975354 15580 Globals.cpp:4236] Cue Mix: 51%
+I0622 20:18:03.984306 15580 Globals.cpp:4236] Cue Mix: 51%
+I0622 20:18:03.991257 15580 Globals.cpp:4236] Cue Mix: 50%
+I0622 20:18:04.007246 15580 Globals.cpp:4236] Cue Mix: 50%
+I0622 20:18:24.591500 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 813.802 974.812 1219.48 1280
+I0622 20:18:27.249845  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1774 average: 16.9184) -82.5309 -29.4268 21.9737 65.7236 133.462
+I0622 20:18:31.565132 15580 Globals.cpp:4236] Cue Mix: 52%
+I0622 20:18:31.572060 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:18:31.580085 15580 Globals.cpp:4236] Cue Mix: 63%
+I0622 20:18:31.588057 15580 Globals.cpp:4236] Cue Mix: 72%
+I0622 20:18:31.596047 15580 Globals.cpp:4236] Cue Mix: 85%
+I0622 20:18:31.605032 15580 Globals.cpp:4236] Cue Mix: 97%
+I0622 20:18:31.612012 15580 Globals.cpp:4236] Cue Mix: 100%
+I0622 20:18:54.588675 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 320 862.302 980.423 1196.73 1280
+I0622 20:18:57.280840  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1778 average: 16.8807) -38.1236 38.6451 112.068 190.495 256.617
+I0622 20:19:24.589655 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 500 937.512 1076.57 1204.66 1280
+I0622 20:19:27.311725  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6651) 15.7649 16.4116 16.6066 16.7806 18.0453
+I0622 20:19:54.598556 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 460 889.074 987.051 1109.52 1280
+I0622 20:19:57.342010  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6652) 15.6806 16.3893 16.555 16.7405 17.5341
+I0622 20:20:24.595674 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 400 909.815 973.247 1040 1280
+I0622 20:20:27.371944  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6648) 15.4168 16.3689 16.5317 16.698 17.7084
+I0622 20:20:54.592581 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 420 940.86 1059.25 1230.29 1280
+I0622 20:20:57.402138  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6648) 15.6061 16.3246 16.5916 16.7564 18.0212
+I0622 20:21:24.606015 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 971.302 1036.12 1115.54 1280
+I0622 20:21:27.431787  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6647) 15.7398 16.6443 16.8365 17.0171 18.3482
+I0622 20:21:40.622831 16788 Globals.cpp:4236] Writing Tags: C:\Users\tdsan\Downloads\mp3FromPy\Aaron H-Smith - Satara (Juanito Remix).mp3
+I0622 20:21:45.880770 15580 Globals.cpp:4236] Cue Mix: 99%
+I0622 20:21:45.888936 15580 Globals.cpp:4236] Cue Mix: 98%
+I0622 20:21:45.896728 15580 Globals.cpp:4236] Cue Mix: 96%
+I0622 20:21:45.904701 15580 Globals.cpp:4236] Cue Mix: 94%
+I0622 20:21:45.912735 15580 Globals.cpp:4236] Cue Mix: 90%
+I0622 20:21:45.920689 15580 Globals.cpp:4236] Cue Mix: 86%
+I0622 20:21:45.928856 15580 Globals.cpp:4236] Cue Mix: 83%
+I0622 20:21:45.936659 15580 Globals.cpp:4236] Cue Mix: 81%
+I0622 20:21:45.944825 15580 Globals.cpp:4236] Cue Mix: 80%
+I0622 20:21:45.952580 15580 Globals.cpp:4236] Cue Mix: 77%
+I0622 20:21:45.961081 15580 Globals.cpp:4236] Cue Mix: 76%
+I0622 20:21:45.969054 15580 Globals.cpp:4236] Cue Mix: 74%
+I0622 20:21:45.977035 15580 Globals.cpp:4236] Cue Mix: 72%
+I0622 20:21:45.984057 15580 Globals.cpp:4236] Cue Mix: 71%
+I0622 20:21:45.992223 15580 Globals.cpp:4236] Cue Mix: 69%
+I0622 20:21:46.000555 15580 Globals.cpp:4236] Cue Mix: 68%
+I0622 20:21:46.009105 15580 Globals.cpp:4236] Cue Mix: 66%
+I0622 20:21:46.016928 15580 Globals.cpp:4236] Cue Mix: 65%
+I0622 20:21:46.023952 15580 Globals.cpp:4236] Cue Mix: 63%
+I0622 20:21:46.031935 15580 Globals.cpp:4236] Cue Mix: 62%
+I0622 20:21:46.039913 15580 Globals.cpp:4236] Cue Mix: 61%
+I0622 20:21:46.048848 15580 Globals.cpp:4236] Cue Mix: 60%
+I0622 20:21:46.056134 15580 Globals.cpp:4236] Cue Mix: 59%
+I0622 20:21:46.064049 15580 Globals.cpp:4236] Cue Mix: 58%
+I0622 20:21:46.072036 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:21:46.081010 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:21:46.089020 15580 Globals.cpp:4236] Cue Mix: 56%
+I0622 20:21:46.096626 15580 Globals.cpp:4236] Cue Mix: 55%
+I0622 20:21:46.104288 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:21:46.111961 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:21:46.120357 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:21:46.129004 15580 Globals.cpp:4236] Cue Mix: 53%
+I0622 20:21:46.135861 15580 Globals.cpp:4236] Cue Mix: 53%
+I0622 20:21:46.144287 15580 Globals.cpp:4236] Cue Mix: 52%
+I0622 20:21:46.152652 15580 Globals.cpp:4236] Cue Mix: 52%
+I0622 20:21:46.160153 15580 Globals.cpp:4236] Cue Mix: 51%
+I0622 20:21:46.169128 15580 Globals.cpp:4236] Cue Mix: 50%
+I0622 20:21:46.176262 15580 Globals.cpp:4236] Cue Mix: 50%
+I0622 20:21:54.605537 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 833.529 939.344 1016.89 1280
+I0622 20:21:57.462456  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1790 average: 16.7677) -63.6633 -35.2667 -18.5324 15.6721 60.8094
+I0622 20:21:57.772699 15580 Globals.cpp:4236] Cue Mix: 51%
+I0622 20:21:57.780653 15580 Globals.cpp:4236] Cue Mix: 52%
+I0622 20:21:57.789446 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:21:57.796566 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:21:57.804587 15580 Globals.cpp:4236] Cue Mix: 60%
+I0622 20:21:57.812521 15580 Globals.cpp:4236] Cue Mix: 63%
+I0622 20:21:57.820539 15580 Globals.cpp:4236] Cue Mix: 66%
+I0622 20:21:57.829550 15580 Globals.cpp:4236] Cue Mix: 70%
+I0622 20:21:57.836498 15580 Globals.cpp:4236] Cue Mix: 74%
+I0622 20:21:57.844527 15580 Globals.cpp:4236] Cue Mix: 79%
+I0622 20:21:57.852453 15580 Globals.cpp:4236] Cue Mix: 83%
+I0622 20:21:57.860464 15580 Globals.cpp:4236] Cue Mix: 87%
+I0622 20:21:57.869405 15580 Globals.cpp:4236] Cue Mix: 92%
+I0622 20:21:57.876423 15580 Globals.cpp:4236] Cue Mix: 96%
+I0622 20:21:57.885089 15580 Globals.cpp:4236] Cue Mix: 98%
+I0622 20:21:57.893062 15580 Globals.cpp:4236] Cue Mix: 100%
+I0622 20:21:58.564255 15580 Globals.cpp:4236] Cue Mix: 99%
+I0622 20:21:58.572091 15580 Globals.cpp:4236] Cue Mix: 98%
+I0622 20:21:58.580117 15580 Globals.cpp:4236] Cue Mix: 95%
+I0622 20:21:58.589080 15580 Globals.cpp:4236] Cue Mix: 93%
+I0622 20:21:58.596066 15580 Globals.cpp:4236] Cue Mix: 90%
+I0622 20:21:58.604043 15580 Globals.cpp:4236] Cue Mix: 87%
+I0622 20:21:58.613018 15580 Globals.cpp:4236] Cue Mix: 84%
+I0622 20:21:58.620012 15580 Globals.cpp:4236] Cue Mix: 82%
+I0622 20:21:58.629209 15580 Globals.cpp:4236] Cue Mix: 80%
+I0622 20:21:58.635967 15580 Globals.cpp:4236] Cue Mix: 78%
+I0622 20:21:58.643963 15580 Globals.cpp:4236] Cue Mix: 76%
+I0622 20:21:58.651912 15580 Globals.cpp:4236] Cue Mix: 74%
+I0622 20:21:58.660516 15580 Globals.cpp:4236] Cue Mix: 72%
+I0622 20:21:58.668865 15580 Globals.cpp:4236] Cue Mix: 70%
+I0622 20:21:58.675879 15580 Globals.cpp:4236] Cue Mix: 68%
+I0622 20:21:58.684525 15580 Globals.cpp:4236] Cue Mix: 66%
+I0622 20:21:58.692503 15580 Globals.cpp:4236] Cue Mix: 64%
+I0622 20:21:58.700486 15580 Globals.cpp:4236] Cue Mix: 62%
+I0622 20:21:58.709487 15580 Globals.cpp:4236] Cue Mix: 61%
+I0622 20:21:58.716437 15580 Globals.cpp:4236] Cue Mix: 59%
+I0622 20:21:58.724447 15580 Globals.cpp:4236] Cue Mix: 58%
+I0622 20:21:58.732405 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:21:58.740388 15580 Globals.cpp:4236] Cue Mix: 55%
+I0622 20:21:58.749367 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:21:58.756469 15580 Globals.cpp:4236] Cue Mix: 53%
+I0622 20:21:58.764312 15580 Globals.cpp:4236] Cue Mix: 51%
+I0622 20:21:58.772318 15580 Globals.cpp:4236] Cue Mix: 50%
+I0622 20:21:58.780230 15580 Globals.cpp:4236] Cue Mix: 50%
+I0622 20:21:59.739121 15580 Globals.cpp:4236] Cue Mix: 51%
+I0622 20:21:59.747108 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:21:59.755635 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:21:59.763067 15580 Globals.cpp:4236] Cue Mix: 60%
+I0622 20:21:59.771252 15580 Globals.cpp:4236] Cue Mix: 62%
+I0622 20:21:59.778997 15580 Globals.cpp:4236] Cue Mix: 65%
+I0622 20:21:59.786985 15580 Globals.cpp:4236] Cue Mix: 68%
+I0622 20:21:59.794975 15580 Globals.cpp:4236] Cue Mix: 71%
+I0622 20:21:59.803593 15580 Globals.cpp:4236] Cue Mix: 74%
+I0622 20:21:59.810914 15580 Globals.cpp:4236] Cue Mix: 76%
+I0622 20:21:59.818917 15580 Globals.cpp:4236] Cue Mix: 80%
+I0622 20:21:59.826884 15580 Globals.cpp:4236] Cue Mix: 83%
+I0622 20:21:59.834864 15580 Globals.cpp:4236] Cue Mix: 86%
+I0622 20:21:59.842850 15580 Globals.cpp:4236] Cue Mix: 90%
+I0622 20:21:59.850823 15580 Globals.cpp:4236] Cue Mix: 93%
+I0622 20:21:59.858803 15580 Globals.cpp:4236] Cue Mix: 96%
+I0622 20:21:59.867774 15580 Globals.cpp:4236] Cue Mix: 98%
+I0622 20:21:59.874708 15580 Globals.cpp:4236] Cue Mix: 99%
+I0622 20:21:59.882740 15580 Globals.cpp:4236] Cue Mix: 100%
+I0622 20:22:24.599680 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 460 885.939 979.831 1160.62 1280
+I0622 20:22:24.666224 11660 CSongReviewManager.cpp:1613] CQNAE0001
+I0622 20:22:27.493649  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1780 average: 16.8617) -3.88906 63.6531 145.248 221.649 287.059
+I0622 20:22:54.613735 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 877.094 951.357 1011.41 1280
+I0622 20:22:57.523044  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6647) 15.6355 16.4373 16.588 16.752 17.5535
+I0622 20:23:24.610608 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 420 851.828 962.552 1016.57 1280
+I0622 20:23:27.553695  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6651) 16.0155 16.7827 16.9413 17.1022 18.0528
+I0622 20:23:54.607872 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 855.556 958.458 1005.95 1280
+I0622 20:23:57.584066  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6651) 15.6789 16.593 16.7448 16.9035 18.1782
+I0622 20:24:01.136008  7800 Globals.cpp:4236] Writing Tags: C:\Users\tdsan\Music\Library\Oscar L - Aura - Original Mix.mp3
+I0622 20:24:07.748518 15580 Globals.cpp:4236] Cue Mix: 99%
+I0622 20:24:07.756485 15580 Globals.cpp:4236] Cue Mix: 98%
+I0622 20:24:07.764209 15580 Globals.cpp:4236] Cue Mix: 97%
+I0622 20:24:07.772187 15580 Globals.cpp:4236] Cue Mix: 95%
+I0622 20:24:07.780129 15580 Globals.cpp:4236] Cue Mix: 93%
+I0622 20:24:07.788144 15580 Globals.cpp:4236] Cue Mix: 90%
+I0622 20:24:07.796350 15580 Globals.cpp:4236] Cue Mix: 86%
+I0622 20:24:07.804517 15580 Globals.cpp:4236] Cue Mix: 83%
+I0622 20:24:07.813037 15580 Globals.cpp:4236] Cue Mix: 81%
+I0622 20:24:07.820058 15580 Globals.cpp:4236] Cue Mix: 79%
+I0622 20:24:07.828001 15580 Globals.cpp:4236] Cue Mix: 76%
+I0622 20:24:07.835980 15580 Globals.cpp:4236] Cue Mix: 75%
+I0622 20:24:07.843960 15580 Globals.cpp:4236] Cue Mix: 72%
+I0622 20:24:07.852092 15580 Globals.cpp:4236] Cue Mix: 71%
+I0622 20:24:07.859962 15580 Globals.cpp:4236] Cue Mix: 69%
+I0622 20:24:07.867892 15580 Globals.cpp:4236] Cue Mix: 68%
+I0622 20:24:07.875871 15580 Globals.cpp:4236] Cue Mix: 66%
+I0622 20:24:07.883863 15580 Globals.cpp:4236] Cue Mix: 64%
+I0622 20:24:07.892431 15580 Globals.cpp:4236] Cue Mix: 62%
+I0622 20:24:07.900413 15580 Globals.cpp:4236] Cue Mix: 61%
+I0622 20:24:07.908416 15580 Globals.cpp:4236] Cue Mix: 59%
+I0622 20:24:07.916363 15580 Globals.cpp:4236] Cue Mix: 58%
+I0622 20:24:07.924393 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:24:07.932374 15580 Globals.cpp:4236] Cue Mix: 56%
+I0622 20:24:07.940297 15580 Globals.cpp:4236] Cue Mix: 55%
+I0622 20:24:07.948328 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:24:07.956254 15580 Globals.cpp:4236] Cue Mix: 53%
+I0622 20:24:07.964433 15580 Globals.cpp:4236] Cue Mix: 52%
+I0622 20:24:07.972213 15580 Globals.cpp:4236] Cue Mix: 51%
+I0622 20:24:07.980446 15580 Globals.cpp:4236] Cue Mix: 50%
+I0622 20:24:07.988476 15580 Globals.cpp:4236] Cue Mix: 50%
+I0622 20:24:19.497032 15580 Globals.cpp:4236] Cue Mix: 52%
+I0622 20:24:19.505084 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:24:19.513170 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:24:19.521994 15580 Globals.cpp:4236] Cue Mix: 61%
+I0622 20:24:19.529984 15580 Globals.cpp:4236] Cue Mix: 65%
+I0622 20:24:19.536965 15580 Globals.cpp:4236] Cue Mix: 71%
+I0622 20:24:19.544981 15580 Globals.cpp:4236] Cue Mix: 77%
+I0622 20:24:19.552922 15580 Globals.cpp:4236] Cue Mix: 83%
+I0622 20:24:19.561897 15580 Globals.cpp:4236] Cue Mix: 90%
+I0622 20:24:19.568879 15580 Globals.cpp:4236] Cue Mix: 95%
+I0622 20:24:19.576843 15580 Globals.cpp:4236] Cue Mix: 99%
+I0622 20:24:19.584836 15580 Globals.cpp:4236] Cue Mix: 100%
+I0622 20:24:20.000133 15580 Globals.cpp:4236] Cue Mix: 99%
+I0622 20:24:20.016052 15580 Globals.cpp:4236] Cue Mix: 99%
+I0622 20:24:20.024066 15580 Globals.cpp:4236] Cue Mix: 98%
+I0622 20:24:20.032042 15580 Globals.cpp:4236] Cue Mix: 98%
+I0622 20:24:20.040197 15580 Globals.cpp:4236] Cue Mix: 96%
+I0622 20:24:20.048367 15580 Globals.cpp:4236] Cue Mix: 94%
+I0622 20:24:20.056156 15580 Globals.cpp:4236] Cue Mix: 93%
+I0622 20:24:20.064082 15580 Globals.cpp:4236] Cue Mix: 91%
+I0622 20:24:20.072118 15580 Globals.cpp:4236] Cue Mix: 88%
+I0622 20:24:20.080093 15580 Globals.cpp:4236] Cue Mix: 85%
+I0622 20:24:20.088069 15580 Globals.cpp:4236] Cue Mix: 82%
+I0622 20:24:20.096668 15580 Globals.cpp:4236] Cue Mix: 80%
+I0622 20:24:20.104138 15580 Globals.cpp:4236] Cue Mix: 77%
+I0622 20:24:20.112972 15580 Globals.cpp:4236] Cue Mix: 76%
+I0622 20:24:20.119976 15580 Globals.cpp:4236] Cue Mix: 74%
+I0622 20:24:20.128931 15580 Globals.cpp:4236] Cue Mix: 72%
+I0622 20:24:20.135941 15580 Globals.cpp:4236] Cue Mix: 72%
+I0622 20:24:20.143921 15580 Globals.cpp:4236] Cue Mix: 70%
+I0622 20:24:20.152604 15580 Globals.cpp:4236] Cue Mix: 69%
+I0622 20:24:20.159878 15580 Globals.cpp:4236] Cue Mix: 68%
+I0622 20:24:20.167809 15580 Globals.cpp:4236] Cue Mix: 67%
+I0622 20:24:20.175835 15580 Globals.cpp:4236] Cue Mix: 65%
+I0622 20:24:20.183818 15580 Globals.cpp:4236] Cue Mix: 65%
+I0622 20:24:20.191902 15580 Globals.cpp:4236] Cue Mix: 64%
+I0622 20:24:20.200604 15580 Globals.cpp:4236] Cue Mix: 62%
+I0622 20:24:20.207731 15580 Globals.cpp:4236] Cue Mix: 61%
+I0622 20:24:20.215684 15580 Globals.cpp:4236] Cue Mix: 60%
+I0622 20:24:20.223805 15580 Globals.cpp:4236] Cue Mix: 59%
+I0622 20:24:20.232666 15580 Globals.cpp:4236] Cue Mix: 58%
+I0622 20:24:20.239970 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:24:20.247845 15580 Globals.cpp:4236] Cue Mix: 56%
+I0622 20:24:20.255815 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:24:20.263751 15580 Globals.cpp:4236] Cue Mix: 53%
+I0622 20:24:20.271735 15580 Globals.cpp:4236] Cue Mix: 51%
+I0622 20:24:20.279961 15580 Globals.cpp:4236] Cue Mix: 50%
+I0622 20:24:21.072418 15580 Globals.cpp:4236] Cue Mix: 52%
+I0622 20:24:21.079452 15580 Globals.cpp:4236] Cue Mix: 54%
+I0622 20:24:21.087417 15580 Globals.cpp:4236] Cue Mix: 57%
+I0622 20:24:21.095544 15580 Globals.cpp:4236] Cue Mix: 60%
+I0622 20:24:21.103502 15580 Globals.cpp:4236] Cue Mix: 64%
+I0622 20:24:21.112466 15580 Globals.cpp:4236] Cue Mix: 69%
+I0622 20:24:21.119288 15580 Globals.cpp:4236] Cue Mix: 73%
+I0622 20:24:21.127570 15580 Globals.cpp:4236] Cue Mix: 79%
+I0622 20:24:21.135290 15580 Globals.cpp:4236] Cue Mix: 83%
+I0622 20:24:21.143664 15580 Globals.cpp:4236] Cue Mix: 89%
+I0622 20:24:21.153251 15580 Globals.cpp:4236] Cue Mix: 94%
+I0622 20:24:21.159225 15580 Globals.cpp:4236] Cue Mix: 98%
+I0622 20:24:21.167207 15580 Globals.cpp:4236] Cue Mix: 100%
+I0622 20:24:24.618430 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 797.843 898.438 984.173 1280
+I0622 20:24:27.614456  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1775 average: 16.9091) -186.9 -100.082 -62.8408 -18.5968 44.9178
+I0622 20:24:54.622422 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 400 879.896 994.035 1182.38 1280
+I0622 20:24:57.644289  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6647) 16.1056 16.8661 17.0676 17.287 19.7086
+I0622 20:25:24.614866 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 440 865.321 951.026 1063.73 1280
+I0622 20:25:27.675304  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1799 average: 16.6837) 10.5124 18.5555 26.424 34.2538 43.0445
+I0622 20:25:43.717890 12868 Globals.cpp:4236] Writing Tags: C:\Users\tdsan\Downloads\mp3FromPy\Channel X - Out Of Control (Original Mix).mp3
+I0622 20:25:54.629070 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 849.321 930.583 999.074 1280
+I0622 20:25:57.705679  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1800 average: 16.6742) 6.84213 11.7228 16.0634 20.1977 24.5188
+I0622 20:26:24.624419 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 320 876.3 972.014 1175.71 1280
+I0622 20:26:27.736131  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6651) 15.6458 16.6534 16.8819 17.0998 18.2739
+I0622 20:26:54.636907 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 400 843.771 968.5 1117.35 1280
+I0622 20:26:57.766448  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6649) 15.6853 16.3263 16.5933 16.836 17.6618
+I0622 20:27:24.636174 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 420 906.871 971.111 1033.39 1280
+I0622 20:27:27.796393  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1793 average: 16.7394) -62.1135 -28.6359 4.49499 37.8589 70.966
+I0622 20:27:54.637673 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 440 907.368 973.658 1045.54 1280
+I0622 20:27:57.826263  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.665) 16.2152 16.9563 17.0653 17.2254 18.8203
+I0622 20:28:17.181268  4240 Globals.cpp:4236] Writing Tags: C:\Users\tdsan\Music\Library\DONT BLINK - ABOUT TO DROP.mp3
+I0622 20:28:24.645963 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 864.444 957.183 1033.62 1280
+I0622 20:28:27.858026  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1798 average: 16.6934) -15.8521 -3.39897 9.58097 21.0175 40.4661
+I0622 20:28:54.659335 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 871.579 947.604 1043.43 1280
+I0622 20:28:57.887418  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1800 average: 16.674) 2.58512 6.91912 10.5934 14.7593 19.4806
+I0622 20:29:24.657152 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 480 918.083 972.426 1025.52 1280
+I0622 20:29:27.917703  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6649) 15.7838 16.4454 16.5556 16.7131 17.3179
+I0622 20:29:54.654458 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 560 912.747 1016.64 1157.62 1280
+I0622 20:29:57.949265  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 1801 average: 16.6652) 15.7945 16.3157 16.5772 16.7771 17.904
+I0622 20:30:24.654105 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 440 1195.23 1263.56 1271.78 1280
+I0622 20:30:28.342530  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 172 average: 176.613) -14858.3 -11249.7 -7341.17 -3502.17 176.612
+I0622 20:30:54.653651 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 280 1255.98 1266.54 1273.27 1280
+I0622 20:30:58.849411  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.046) 118.995 243.263 278.784 369.668 386.127
+I0622 20:31:24.669983 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 540 1263.57 1269.05 1274.52 1280
+I0622 20:31:29.128425  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.398) -132.085 73.801 171.872 275.261 466.659
+I0622 20:31:54.669704 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 1263.58 1269.05 1274.53 1280
+I0622 20:31:59.847983  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 84 average: 363.122) 223.087 691.054 927.008 1128.44 1445.66
+I0622 20:32:24.628628 11660 CSongReviewManager.cpp:1613] CQNAE0001
+I0622 20:32:24.669628 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 320 1261.87 1267.91 1273.96 1280
+I0622 20:32:30.343423  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 105 average: 290.222) -3298.66 -1948.23 -1146.71 -730.879 290.222
+I0622 20:32:54.670162 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 540 1263.42 1268.94 1274.47 1280
+I0622 20:33:00.632061  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.375) 217.456 421.853 518.481 621.83 809.616
+I0622 20:33:24.685969 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 480 1263.78 1269.19 1274.6 1280
+I0622 20:33:31.350733  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 376.588) 245.853 376.743 454.453 513.254 623.547
+I0622 20:33:54.669941 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 1263.26 1268.84 1274.42 1280
+I0622 20:34:02.130106  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 369.301) 124.723 352.881 454.982 564.016 777.943
+I0622 20:34:24.686153 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 320 1263.36 1268.91 1274.45 1280
+I0622 20:34:32.847956  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 376.591) 248.134 376.591 461.593 520.449 627.003
+I0622 20:34:54.685730 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 440 1263.91 1269.28 1274.64 1280
+I0622 20:35:03.350293  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 96 average: 312.503) -70.6504 899.999 2059.83 3123.97 3811.48
+I0622 20:35:24.685462 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 460 1263.71 1269.14 1274.57 1280
+I0622 20:35:33.624423  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 93 average: 322.603) -2083.77 -1026.98 -21.2804 784.161 1449.37
+I0622 20:35:54.686055 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 560 1263.83 1269.22 1274.61 1280
+I0622 20:36:03.847676  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.378) 328.777 540.639 636.621 740.882 932.041
+I0622 20:36:24.685642 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 1263.71 1269.14 1274.57 1280
+I0622 20:36:34.855429  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 376.567) 120.983 245.305 322.483 382.462 490.164
+I0622 20:36:54.701964 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 320 1263.31 1268.88 1274.44 1280
+I0622 20:37:05.127859  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.396) 165.749 373.482 468.157 572.932 759.275
+I0622 20:37:24.701803 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 440 1263.46 1268.98 1274.49 1280
+I0622 20:37:35.845103  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 376.471) 258.328 376.471 450.619 520.04 616.538
+I0622 20:37:54.717473 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 340 1263.62 1269.08 1274.54 1280
+I0622 20:38:06.630055  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 369.352) 123.894 308.663 404.355 491.621 719.56
+I0622 20:38:24.717836 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 500 1263.61 1269.08 1274.54 1280
+I0622 20:38:37.345607  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 376.486) 254.223 376.486 455.395 518.671 621.17
+I0622 20:38:54.717283 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 460 1263.84 1269.23 1274.62 1280
+I0622 20:39:08.136610  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 369.372) 104.657 293.445 379.786 459.817 686.174
+I0622 20:39:24.717684 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 1263.98 1269.32 1274.66 1280
+I0622 20:39:38.852444  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 376.671) 242.579 376.272 452.975 517.464 630.585
+I0622 20:39:54.733541 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 460 1262.72 1268.48 1274.24 1280
+I0622 20:40:09.629565  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 83 average: 364.839) -27.9244 244.618 340.698 445.691 737.934
+I0622 20:40:24.733724 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 580 1263.59 1269.06 1274.53 1280
+I0622 20:40:40.347527  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 376.537) 250.42 376.537 453.347 515.276 629.435
+I0622 20:40:54.733803 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 520 1263.85 1269.23 1274.62 1280
+I0622 20:41:11.127751  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 369.247) 55.3983 259.674 344.09 436.934 643.308
+I0622 20:41:24.733851 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 420 1263.64 1269.1 1274.55 1280
+I0622 20:41:41.349453  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.05) 370.901 495.487 526.263 620.687 631.145
+I0622 20:41:54.735100 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 320 1263.42 1268.94 1274.47 1280
+I0622 20:42:12.342823  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 371.911) 35.5227 244.779 354.8 482.629 638.207
+I0622 20:42:24.376138 11660 CSongReviewManager.cpp:1613] CQNAE0001
+I0622 20:42:24.750123 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 460 1263.47 1268.98 1274.49 1280
+I0622 20:42:42.630093  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.045) 213.065 338.819 371.176 463.767 477.197
+I0622 20:42:54.749339 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 1263.71 1269.14 1274.57 1280
+I0622 20:43:12.853940  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.443) 221.219 423.701 525.91 629.071 802.251
+I0622 20:43:24.748445 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 1263.74 1269.16 1274.58 1280
+I0622 20:43:43.846791  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 376.544) 131.08 251.037 332.785 397.036 499.529
+I0622 20:43:54.748512 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 460 1263.31 1268.87 1274.44 1280
+I0622 20:44:14.136682  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 83 average: 361.521) 217.233 545.192 679.028 809.791 1098.98
+I0622 20:44:24.749809 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 320 1263.46 1268.97 1274.49 1280
+I0622 20:44:44.843876  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 93 average: 327.958) -3090.29 -2134.54 -1238.8 -359.399 350.055
+I0622 20:44:54.749537 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 1263.44 1268.96 1274.48 1280
+I0622 20:45:15.345921  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.375) -47.219 153.937 249.195 354.258 541.147
+I0622 20:45:24.750298 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 640 1263.73 1269.15 1274.58 1280
+I0622 20:45:45.627025  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.384) -4.72141 217.538 312.397 420.509 607.905
+I0622 20:45:54.765950 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 1263.77 1269.18 1274.59 1280
+I0622 20:46:16.348738  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 371.969) 127.794 312.243 409.264 551.449 724.181
+I0622 20:46:24.765884 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 460 1263.28 1268.85 1274.43 1280
+I0622 20:46:46.892045  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 86 average: 349.282) 141.044 755.303 1197.46 1614.73 2087
+I0622 20:46:54.765405 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 320 1263.35 1268.9 1274.45 1280
+I0622 20:47:17.124229  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 105 average: 286.903) -1447.1 -184.285 449.202 1572.65 2357.15
+I0622 20:47:24.765947 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 320 1262.23 1268.15 1274.08 1280
+I0622 20:47:47.847927  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 92 average: 331.512) -2974.31 -2098.88 -1229.99 -364.731 386.424
+I0622 20:47:54.764335 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 1262.63 1268.42 1274.21 1280
+I0622 20:48:18.344308  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.385) -93.1395 118.946 213.665 318.34 505.504
+I0622 20:48:24.765986 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 520 1263.1 1268.73 1274.37 1280
+I0622 20:48:48.631018  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 94 average: 319.178) 221.168 1331.91 2407.63 3304.92 3970.73
+I0622 20:48:54.781635 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 1262.36 1268.24 1274.12 1280
+I0622 20:49:19.351402  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 371.907) 92.8677 266.974 373.626 496.42 699.416
+I0622 20:49:24.781693 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 1263.14 1268.76 1274.38 1280
+I0622 20:49:49.847721  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 93 average: 322.585) -65.3035 945.898 1965.02 2865.5 3470.58
+I0622 20:49:54.781713 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 1263.75 1269.17 1274.59 1280
+I0622 20:50:20.355334  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 368.543) 27.914 257.582 354.161 448.737 610.125
+I0622 20:50:24.782073 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 560 1263.35 1268.9 1274.45 1280
+I0622 20:50:50.854586  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.13) 240.364 366.468 397.796 487.251 507.885
+I0622 20:50:54.781564 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 1263.67 1269.11 1274.56 1280
+I0622 20:51:21.350880  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 365.909) -15.0961 214.857 310.721 404.322 620.935
+I0622 20:51:24.797384 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 400 1263.42 1268.95 1274.48 1280
+I0622 20:51:51.638239  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.078) 205.188 330.698 361.943 454.795 469.926
+I0622 20:51:54.797427 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 1262.68 1268.45 1274.23 1280
+I0622 20:52:21.847142  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.382) 109.99 318.465 414.844 519.545 706.457
+I0622 20:52:24.392174 11660 CSongReviewManager.cpp:1613] CQNAE0001
+I0622 20:52:24.797749 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 1263.87 1269.24 1274.62 1280
+I0622 20:52:52.349572  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.08) 244.769 371.104 401.969 494.833 509.972
+I0622 20:52:54.796531 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 1263.72 1269.15 1274.57 1280
+I0622 20:53:23.126739  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 369.231) -119.428 115.791 197.419 305.845 461.217
+I0622 20:53:24.797880 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 520 1263.68 1269.12 1274.56 1280
+I0622 20:53:53.847908  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 376.562) 250.469 376.562 457.898 517.598 620.206
+I0622 20:53:54.813321 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 1263.35 1268.9 1274.45 1280
+I0622 20:54:24.630415  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 369.234) -153.793 82.9747 174.782 293.524 451.513
+I0622 20:54:24.813748 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 1263.58 1269.05 1274.53 1280
+I0622 20:54:54.813416 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 1263.69 1269.12 1274.56 1280
+I0622 20:54:55.350617  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 376.494) 251.802 376.494 448.389 515.74 614.858
+I0622 20:55:24.813519 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 560 1263.69 1269.13 1274.57 1280
+I0622 20:55:26.135975  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 369.373) -174.383 62.2251 163.262 274.956 449.68
+I0622 20:55:54.829587 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 500 1263.58 1269.05 1274.53 1280
+I0622 20:55:56.842579  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 376.414) 252.694 376.414 451.779 511.892 622.949
+I0622 20:56:24.829768 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 1263.46 1268.98 1274.49 1280
+I0622 20:56:27.351287  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.443) -201.091 3.78133 98.5473 201.405 388.49
+I0622 20:56:54.829690 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 1263.6 1269.06 1274.53 1280
+I0622 20:56:57.847506  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 368.516) -23.1125 218.689 328.401 430.017 608.264
+I0622 20:57:24.829628 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 600 1263.71 1269.14 1274.57 1280
+I0622 20:57:28.349313  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.435) -88.1525 116.591 212.132 313.51 511.139
+I0622 20:57:54.845819 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 1263.79 1269.2 1274.6 1280
+I0622 20:57:59.127920  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 373.812) 121.952 249.494 310.5 372.52 464.632
+I0622 20:58:24.845988 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 1263.74 1269.16 1274.58 1280
+I0622 20:58:29.350783  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.443) 23.0547 227.661 324.915 424.312 603.15
+I0622 20:58:54.845849 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 400 1261.48 1267.65 1273.83 1280
+I0622 20:58:59.846685  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.007) 246.432 368.839 403.437 495.472 507.512
+I0622 20:59:24.846259 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 1263.39 1268.93 1274.46 1280
+I0622 20:59:30.342514  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 374.341) 75.1487 201.669 245.45 325.192 379.079
+I0622 20:59:54.845147 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 560 1263.65 1269.1 1274.55 1280
+I0622 21:00:00.632679  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.372) 213.222 422.792 519.391 621.891 805.51
+I0622 21:00:24.845548 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 400 1263.68 1269.12 1274.56 1280
+I0622 21:00:31.345023  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 376.43) 258.002 376.43 452.384 512.242 614.551
+I0622 21:00:54.861658 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 1263.79 1269.2 1274.6 1280
+I0622 21:01:02.124893  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 369.226) 126.234 353.534 459.108 563.353 789.877
+I0622 21:01:24.861518 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 600 1263.99 1269.33 1274.67 1280
+I0622 21:01:32.853416  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 376.557) 241.397 376.557 450.141 510.311 622.017
+I0622 21:01:54.861184 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 320 1263.7 1269.13 1274.57 1280
+I0622 21:02:03.350236  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 97 average: 309.317) -1466.04 -225.694 544.028 1055.55 1647.67
+I0622 21:02:24.632694 11660 CSongReviewManager.cpp:1613] CQNAE0001
+I0622 21:02:24.862253 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 996.364 1265.8 1272.9 1280
+I0622 21:02:33.847625  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 105 average: 287.783) -3898.51 -2218.67 -1294.86 -691.536 360.139
+I0622 21:02:54.861903 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 480 1263.39 1268.93 1274.47 1280
+I0622 21:03:04.353446  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.374) 199.498 405.959 501.339 606.259 793.918
+I0622 21:03:24.878291 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 320 1263.53 1269.02 1274.51 1280
+I0622 21:03:34.844322  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.018) 123.917 248.621 280.171 372.12 386.684
+I0622 21:03:54.878738 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 340 1262.84 1268.56 1274.28 1280
+I0622 21:04:05.128180  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.392) 171.501 371.669 468.557 571.665 763.566
+I0622 21:04:24.878105 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 1261.51 1267.67 1273.84 1280
+I0622 21:04:35.847353  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 376.503) 253.193 376.503 452.17 514.411 614.761
+I0622 21:04:54.878062 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 400 1263.05 1268.7 1274.35 1280
+I0622 21:05:06.627985  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 369.26) 128.309 302.256 396.019 495.752 710.734
+I0622 21:05:24.876353 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 340 1263.67 1269.11 1274.56 1280
+I0622 21:05:36.853679  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.054) 364.216 493.131 522.03 614.689 631.035
+I0622 21:05:54.877595 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 480 1263.69 1269.12 1274.56 1280
+I0622 21:06:07.350939  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.439) 161.315 370.439 471.006 573.961 759.501
+I0622 21:06:24.878091 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 340 1263.11 1268.74 1274.37 1280
+I0622 21:06:38.130517  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 373.874) 127.382 249.746 311.018 373.874 459.342
+I0622 21:06:54.893146 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 1263.58 1269.06 1274.53 1280
+I0622 21:07:08.849000  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 371.899) 187.75 405.476 526.96 636.402 779.658
+I0622 21:07:24.893515 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 560 1263.65 1269.1 1274.55 1280
+I0622 21:07:39.350281  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.062) 119.682 242.527 274.651 366.795 379.005
+I0622 21:07:54.893644 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 480 1263.68 1269.12 1274.56 1280
+I0622 21:08:09.847667  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 83 average: 364.047) -53.471 212.444 333.238 424.895 652.664
+I0622 21:08:24.893496 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 1263.62 1269.08 1274.54 1280
+I0622 21:08:40.344302  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.015) 248.336 375.015 405.819 498.07 511.253
+I0622 21:08:54.909965 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 500 1263.29 1268.86 1274.43 1280
+I0622 21:09:11.126299  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 369.186) 62.0193 259.932 344.195 435.045 636.195
+I0622 21:09:24.909965 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 1263.55 1269.04 1274.52 1280
+I0622 21:09:41.350529  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.072) 368.357 493.939 526.883 620.074 633.855
+I0622 21:09:54.909379 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 660 1264.02 1269.35 1274.68 1280
+I0622 21:10:12.343518  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 371.887) 33.6612 247.066 355.636 479.142 632.823
+I0622 21:10:24.909965 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 480 1263.68 1269.12 1274.56 1280
+I0622 21:10:42.627765  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.024) 216.203 340.205 373.572 464.719 477.375
+I0622 21:10:54.926086 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 400 1263.73 1269.16 1274.58 1280
+I0622 21:11:12.854030  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 365.909) 70.167 364.525 541.251 711.574 986.756
+I0622 21:11:24.925532 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 1263.83 1269.22 1274.61 1280
+I0622 21:11:43.847111  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 376.563) 126.713 250.476 335.202 395.73 499.917
+I0622 21:11:54.925930 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 1263.52 1269.01 1274.51 1280
+I0622 21:12:14.137071  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 365.92) -119.193 178.666 358.213 527.708 807.16
+I0622 21:12:24.386287 11660 CSongReviewManager.cpp:1613] CQNAE0001
+I0622 21:12:24.925662 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 460 1263.25 1268.83 1274.42 1280
+I0622 21:12:44.850389  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 376.631) 244.472 376.631 456.576 516.934 632.102
+I0622 21:12:54.942157 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 560 1263.39 1268.93 1274.47 1280
+I0622 21:13:15.348497  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 365.893) 26.4683 278.241 365.893 464.835 698.224
+I0622 21:13:24.941606 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 1263.49 1268.99 1274.5 1280
+I0622 21:13:45.847368  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 373.054) 217.367 358.502 435.786 495.914 621.656
+I0622 21:13:54.941182 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 1263.75 1269.17 1274.59 1280
+I0622 21:14:16.347461  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.422) 63.3264 263.943 357.801 465.444 647.42
+I0622 21:14:24.957743 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 320 1263.77 1269.18 1274.59 1280
+I0622 21:14:46.848737  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.064) 119.754 245.898 275.271 367.188 380.089
+I0622 21:14:54.957610 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 340 1262.69 1268.46 1274.23 1280
+I0622 21:15:17.128535  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.377) 16.9231 223.156 313.718 423.22 611.283
+I0622 21:15:24.957624 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 560 1263.71 1269.14 1274.57 1280
+I0622 21:15:47.846987  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 376.512) 253.238 376.512 453.542 515.908 614.984
+I0622 21:15:54.958084 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 460 1263.57 1269.05 1274.53 1280
+I0622 21:16:18.632983  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 369.374) -54.8927 166.846 262.455 351.502 531.193
+I0622 21:16:24.957964 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 440 1263.68 1269.12 1274.56 1280
+I0622 21:16:48.853214  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.09) 366.962 490.648 523.018 615.218 629.697
+I0622 21:16:54.957365 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 1263.42 1268.94 1274.47 1280
+I0622 21:17:19.350250  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 107 average: 280.413) 280.413 1930.71 2527.92 3030.8 4000.09
+I0622 21:17:24.957911 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 1261.59 1267.72 1273.86 1280
+I0622 21:17:49.846400  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 376.303) 129.51 254.362 320.81 383.323 481.285
+I0622 21:17:54.957922 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 460 1261.62 1267.75 1273.88 1280
+I0622 21:18:20.341723  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 86 average: 351.24) 213.066 684.774 909.549 1223.5 1770.5
+I0622 21:18:24.972628 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 540 1262.37 1268.25 1274.13 1280
+I0622 21:18:51.348299  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 110 average: 277.258) -4469.68 -2844.75 -2105.4 -927.995 330.289
+I0622 21:18:54.973012 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 520 1262.57 1268.38 1274.19 1280
+I0622 21:19:21.846526  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 94 average: 321.403) -2680.82 -1825.16 -824.359 104.107 659.025
+I0622 21:19:24.973680 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 1262.64 1268.42 1274.21 1280
+I0622 21:19:52.347088  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.049) 246.211 371.018 401.053 497.155 511.711
+I0622 21:19:54.973446 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 560 1263.15 1268.77 1274.39 1280
+I0622 21:20:23.126230  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 369.186) -131.925 105.764 198.206 305.906 456.166
+I0622 21:20:24.990337 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 540 1263.71 1269.14 1274.57 1280
+I0622 21:20:53.349442  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.087) 368.789 494.697 528.232 620.725 635.215
+I0622 21:20:54.989786 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 500 1263.85 1269.23 1274.62 1280
+I0622 21:21:24.343950  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 371.907) -62.1248 108.018 205.81 277.84 539.18
+I0622 21:21:24.989588 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 1263.62 1269.08 1274.54 1280
+I0622 21:21:54.627063  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.017) 215.333 341.019 374.682 465.121 478.448
+I0622 21:21:54.989279 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 1263.34 1268.89 1274.45 1280
+I0622 21:22:24.431646 11660 CSongReviewManager.cpp:1613] CQNAE0001
+I0622 21:22:24.853732  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 95 average: 315.85) -1346.6 -208.591 896.119 1551.25 2259.62
+I0622 21:22:24.989531 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 1263.69 1269.13 1274.57 1280
+I0622 21:22:54.988507 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 680 1263.87 1269.24 1274.62 1280
+I0622 21:22:55.349117  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.028) 244.643 369.358 400.609 495.297 507.286
+I0622 21:23:24.989989 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 480 1263.61 1269.07 1274.54 1280
+I0622 21:23:25.847915  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.374) -189.501 22.399 116.403 221.872 409.182
+I0622 21:23:54.989151 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 1263.53 1269.02 1274.51 1280
+I0622 21:23:56.135668  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.118) 208.503 334.817 367.346 459.993 477.36
+I0622 21:24:25.005657 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 1263.34 1268.9 1274.45 1280
+I0622 21:24:26.344774  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 84 average: 357.176) 215.05 468.632 644.016 787.168 1213.69
+I0622 21:24:55.006105 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 460 1263.25 1268.84 1274.42 1280
+I0622 21:24:57.351248  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 92 average: 331.55) -3139.4 -2163.69 -1402.39 -530.47 331.55
+I0622 21:25:25.005132 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 440 1263.65 1269.1 1274.55 1280
+I0622 21:25:27.638756  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.51) -111.678 90.5408 183.177 285.48 486.129
+I0622 21:25:55.005842 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 1263.31 1268.87 1274.44 1280
+I0622 21:25:57.847390  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 93 average: 322.605) -2406.18 -1353.61 -336.973 471.319 1133.42
+I0622 21:26:25.021754 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 540 1263.69 1269.13 1274.57 1280
+I0622 21:26:28.353673  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.465) -90.1769 113.447 207.971 312.657 498.958
+I0622 21:26:55.021834 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 1263.63 1269.08 1274.54 1280
+I0622 21:26:58.849941  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 94 average: 319.157) -272.394 808.756 1840.5 2800.48 3443.94
+I0622 21:27:25.022610 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 320 1263.78 1269.19 1274.6 1280
+I0622 21:27:29.344584  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 368.512) -115.123 132.993 242.983 368.512 604.134
+I0622 21:27:55.021479 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 1263.79 1269.19 1274.6 1280
+I0622 21:27:59.847250  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.003) 246.013 370.565 400.303 494.348 507.187
+I0622 21:28:25.021705 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 400 1263.43 1268.95 1274.48 1280
+I0622 21:28:30.343228  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 374.297) 71.976 198.607 242.134 319.205 382.859
+I0622 21:28:55.021661 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 400 1263.16 1268.77 1274.39 1280
+I0622 21:29:00.631470  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.396) 221.127 423.638 520.547 623.308 813.846
+I0622 21:29:25.037139 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 1263.5 1269 1274.5 1280
+I0622 21:29:31.349897  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 371.969) 199.285 440.687 550.091 657.843 804.331
+I0622 21:29:55.038017 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 1263.7 1269.13 1274.57 1280
+I0622 21:30:02.129240  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 82 average: 369.329) 145.681 350.784 453.083 562.545 778.908
+I0622 21:30:25.037590 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 360 1263.77 1269.18 1274.59 1280
+I0622 21:30:32.343521  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.016) 375.016 497.463 525.354 624.387 637.139
+I0622 21:30:55.037168 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 600 1263.76 1269.17 1274.59 1280
+I0622 21:31:02.855775  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 81 average: 370.454) 211.971 426.99 523.013 624.015 804.852
+I0622 21:31:25.052945 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 380 1263.67 1269.12 1274.56 1280
+I0622 21:31:33.350843  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 80 average: 375.006) 112.872 241.612 274.397 365.477 378.006
+I0622 21:31:55.210950 12052 UsbConnectionList.cpp:75] USB Connection Removed: Vid=0x582&Pid=0x205&BcdDevice=0x100&Instance=1#5
+I0622 21:31:55.286654  5544 CNativeMixer.cpp:2298] Audio dropout check triggered audio stream restart (5365914,277)
+I0622 21:31:55.292637  5544 CNativeMixer.cpp:2649] Queueing stream soft restart request
+I0622 21:31:55.306604 11980 CNativeMixer.cpp:2545] CNativeMixer : kConnectedMode : retf
+I0622 21:31:55.321560 16088 :0] [Device] MIDI connections changed during polling. Re-poll MIDI connections.
+I0622 21:31:55.742671 12624 CMIDIOutputManager.cpp:334] longest idle time for active message: 752
+I0622 21:31:56.924049 16088 :0] [Device] Queuing MIDI connection events for dispatch: 1 removed; 0 added.
+I0622 21:31:56.924049 16088 :0] [Device] Currently available connections are: 
+I0622 21:31:56.924049 16088 :0] [Device]  - Microsoft GS Wavetable Synth
+E0622 21:31:57.149505 18248 HangDetect.cpp:412] Hang Detected - Ongoing | Hang Phase Normal operation | Audio Thread - Port audio after callback | Duration: 2140 ms
+I0622 21:31:57.777549  8224 :0] [Device] Dispatching 1 MIDI connection event.
+I0622 21:31:57.777549  8224 MidiConnectionList.cpp:80] MIDI Connection removed: /win/midi/mm/DJ-202/da2cc4398c81bab9?pid=0205&unique_group=da2cc4398c81bab8&vid=0582&direction=duplex
+I0622 21:31:57.777549  7032 DeviceManager.cpp:271] Device Removed: DJ-202
+I0622 21:31:57.778544 14724 CMIDIManager.cpp:2784] MIDI connection removed: DJ-202
+I0622 21:31:57.782280 14724 :0] [Device] RtMidiInConnection : Close : name=DJ-202, address=/win/midi/mm/DJ-202/da2cc4398c81bab9?pid=0205&unique_group=da2cc4398c81bab8&vid=0582
+I0622 21:31:57.782280 14724 :0] [Device] RtMidiInConnection : Close : closing port name=DJ-202, address=/win/midi/mm/DJ-202/da2cc4398c81bab9?pid=0205&unique_group=da2cc4398c81bab8&vid=0582
+I0622 21:31:57.782948 14724 :0] [Device] RtMidiOutConnection : Close : name=DJ-202, address=/win/midi/mm/DJ-202/da2cc4398c81baba?pid=0205&unique_group=da2cc4398c81bab8&vid=0582
+I0622 21:31:57.782948 14724 :0] [Device] RtMidiOutConnection : Close : reset connection name=DJ-202, address=/win/midi/mm/DJ-202/da2cc4398c81baba?pid=0205&unique_group=da2cc4398c81bab8&vid=0582
+I0622 21:31:57.833114 11980 Globals.cpp:4236] There is not enough space on screen to expand the waveforms.
+I0622 21:31:57.835628 11980 CNativeMixer.cpp:2371] Going into Disconnected Mode
+I0622 21:31:57.835628 11980 CNativeMixer.cpp:2879] CNativeMixer : stopping current connection
+I0622 21:31:57.835628 11980 PortAudioConnection.cpp:66] PortAudioConnection : Stop : resetting callbacks
+I0622 21:31:57.836625 11980 CPortAudio.cpp:1350] CPortAudio : PortAudioStop
+I0622 21:31:57.837258 11980 CPortAudio.cpp:1379] CPortAudio : PortAudioStop : destroying buffers
+I0622 21:31:57.837258 11980 CPortAudio.cpp:1394] CPortAudio : PortAudioStop : terminating Pa
+I0622 21:31:57.837258 11980 CNativeMixer.cpp:2885] CNativeMixer : disable audio thread timer
+I0622 21:31:57.837258 11980 CNativeMixer.cpp:1033] Tearing down mix architecture
+I0622 21:31:58.098124 11980 CStandalonePlayer.cpp:200] CStandalonePlayer_OneDeck : enable audio thread timer
+I0622 21:31:58.139009 11980 CTurntableDecoder.cpp:3713] Decoder [0] output sampling set to [44100]
+I0622 21:31:58.139009 11980 CTurntableDecoder.cpp:3713] Decoder [1] output sampling set to [44100]
+I0622 21:31:58.139009 11980 CTurntableDecoder.cpp:3713] Decoder [2] output sampling set to [44100]
+I0622 21:31:58.139009 11980 CTurntableDecoder.cpp:3713] Decoder [3] output sampling set to [44100]
+I0622 21:31:58.139009 11980 CTurntableDecoder.cpp:3713] Decoder [0] output sampling set to [44100]
+I0622 21:31:58.139009 11980 CTurntableDecoder.cpp:3713] Decoder [1] output sampling set to [44100]
+I0622 21:31:58.139009 11980 CTurntableDecoder.cpp:3713] Decoder [2] output sampling set to [44100]
+I0622 21:31:58.139009 11980 CTurntableDecoder.cpp:3713] Decoder [3] output sampling set to [44100]
+I0622 21:31:58.139976 11980 CTurntableDecoder.cpp:3713] Decoder [0] output sampling set to [44100]
+I0622 21:31:58.139976 11980 CTurntableDecoder.cpp:3713] Decoder [1] output sampling set to [44100]
+I0622 21:31:58.139976 11980 CTurntableDecoder.cpp:3713] Decoder [2] output sampling set to [44100]
+I0622 21:31:58.139976 11980 CTurntableDecoder.cpp:3713] Decoder [3] output sampling set to [44100]
+I0622 21:31:58.139976 11980 CTurntableDecoder.cpp:3713] Decoder [4] output sampling set to [44100]
+I0622 21:31:58.139976 11980 CTurntableDecoder.cpp:3713] Decoder [5] output sampling set to [44100]
+I0622 21:31:58.139976 11980 CTurntableDecoder.cpp:3713] Decoder [6] output sampling set to [44100]
+I0622 21:31:58.139976 11980 CTurntableDecoder.cpp:3713] Decoder [7] output sampling set to [44100]
+I0622 21:31:58.481494 11980 CNativeMixer.cpp:2396] Disconnected State
+E0622 22:02:00.827360 18248 HangDetect.cpp:412] Hang Detected - Recoverable | Hang Phase Normal operation | Audio Thread - Port audio after callback | Duration: 2828 ms
+I0622 22:02:01.253190 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Online Total: 300 1263.49 1268.99 1274.5 1280
+I0622 22:02:01.333258  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 65 average: 28118.7) -1.74746e+06 -1.30358e+06 -859665 -415781 28118.7
+I0622 22:02:01.597187 11980 Globals.cpp:4236] Streaming server could not be reached, please check connection and try again
+I0622 22:02:01.597187 11980 Globals.cpp:4236] Streaming server could not be reached, please check connection and try again
+I0622 22:02:01.760985  5276 CGUISeratoWaveformRenderer.cpp:327] CGUISeratoWaveformRenderer:: Shader compiled
+I0622 22:02:01.771032  5276 CGUISeratoWaveformRenderer.cpp:327] CGUISeratoWaveformRenderer:: Shader compiled
+E0622 22:02:02.852154 18248 HangDetect.cpp:412] Hang Detected - Ongoing | Hang Phase Normal operation | Audio Thread - Wait free block | Duration: 2026 ms
+E0622 22:02:04.868402 18248 HangDetect.cpp:412] Hang Detected - Ongoing | Hang Phase Normal operation | Audio Thread - Wait free block | Duration: 4042 ms
+E0622 22:02:06.885252 18248 HangDetect.cpp:412] Hang Detected - Ongoing | Hang Phase Normal operation | Audio Thread - Wait free block | Duration: 6059 ms
+E0622 22:02:07.888406 18248 HangDetect.cpp:475] Hang Detected - Ongoing | Hang Phase Normal operation | Main Thread | Duration: 2087 ms
+I0623 18:33:37.169394  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 160 average: 461868) -7.29713e+07 -5.44974e+07 -3.60235e+07 -1.75497e+07 461868
+I0623 18:33:37.666824 12052 UsbConnectionList.cpp:75] USB Connection Removed: Vid=0x27c6&Pid=0x5395&BcdDevice=0x100&Instance=1#3
+I0623 18:33:37.666824 12052 UsbConnectionList.cpp:75] USB Connection Removed: Vid=0x8087&Pid=0x29&BcdDevice=0x1&Instance=1#4
+I0623 18:33:37.666824 12052 UsbConnectionList.cpp:75] USB Connection Removed: Vid=0xc45&Pid=0x6723&BcdDevice=0x8008&Instance=1#2
+I0623 18:33:37.666824 12052 UsbConnectionList.cpp:49] New USB Connection from the module: Vid=0xc45&Pid=0x6723&BcdDevice=0x8008&Instance=1#3
+I0623 18:33:37.666824 12052 UsbConnectionList.cpp:49] New USB Connection from the module: Vid=0x27c6&Pid=0x5395&BcdDevice=0x100&Instance=1#4
+I0623 18:33:37.666824 12052 UsbConnectionList.cpp:49] New USB Connection from the module: Vid=0x8087&Pid=0x29&BcdDevice=0x1&Instance=1#2
+I0623 18:33:38.071287 11980 Globals.cpp:4236] Streaming server could not be reached, please check connection and try again
+I0623 18:33:38.072284 11980 Globals.cpp:4236] Streaming server could not be reached, please check connection and try again
+I0623 18:33:38.079267 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Offline Total: 380 410 440 500 1280
+I0623 18:33:38.822675 11660 CSongReviewManager.cpp:1613] CQNAE1000
+I0623 18:34:07.378767 11980 MixArchitectureTiming.cpp:529] [AudioRenderSummary] Offline Total: 200 373.611 459.341 550.345 1280
+I0623 18:34:08.292356  5276 mainqtview.cpp:359] [FrameRenderSummary] : (count: 218 average: 138.641) -18194.8 -13457.8 -8707.64 -4106.38 669.315
+I0623 18:34:13.050612 11980 CStandalonePlayer.cpp:368] CStandalonePlayer_OneDeck : disable audio thread timer
+I0623 18:34:13.073419  7256 Globals.cpp:4236] Writing Tags: C:\Users\tdsan\Music\Library\Dennis Cruz - Cookies (Original Mix).mp3
+I0623 18:34:13.164176  7256 Globals.cpp:4236] Writing Tags: C:\Users\tdsan\Downloads\mp3FromPy\Mikey Lion, Sacha Robotti - Flip The Joint (Original Mix) [Desert Hearts Records].mp3
+I0623 18:34:14.352237 11980 CNativeMixer.cpp:2879] CNativeMixer : stopping current connection
+I0623 18:34:14.352237 11980 CNativeMixer.cpp:2885] CNativeMixer : disable audio thread timer
+I0623 18:34:19.017199 11980 :0] [Application] CSongReviewManager - Shutting down networking...
+I0623 18:34:19.121913 11980 CNativeMixer.cpp:2879] CNativeMixer : stopping current connection
+I0623 18:34:19.121913 11980 CNativeMixer.cpp:2885] CNativeMixer : disable audio thread timer
+I0623 18:34:19.126871 11980 CNativeMixer.cpp:2879] CNativeMixer : stopping current connection
+I0623 18:34:19.126871 11980 CNativeMixer.cpp:2885] CNativeMixer : disable audio thread timer
+I0623 18:34:19.497529 11980 CSongReviewManager.cpp:141] CSongReviewManager - Shutting down networking...
