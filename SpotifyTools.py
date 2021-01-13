@@ -82,14 +82,14 @@ class SpotifyTools( spotipyExt.SpotifyExt ):
 
     #Public Interface
     def createGenrePlaylistsFromLib( self, username, desiredGenres, libraryStartIdx, libraryEndIdx ):
-#    ''' 
-#        Creates playlists from list of genres and sorts library into the desired genre playlists
-#
-#        Parameters:
-#            -- desiredGenres   - list of genres the user wants the tool to create a playlist for
-#            -- libraryStartIdx - library index to start sorting at (zero-based)
-#            -- libraryEndIdx   - library index to end sorting at (zero-based)
-#    '''
+        ''' 
+            Creates playlists from list of genres and sorts library into the desired genre playlists
+    
+            Parameters:
+                -- desiredGenres   - list of genres the user wants the tool to create a playlist for
+                -- libraryStartIdx - library index to start sorting at (zero-based)
+                -- libraryEndIdx   - library index to end sorting at (zero-based)
+        '''
         #Get function inputs 
         offset = libraryStartIdx
         limit = libraryEndIdx - libraryEndIdx
@@ -99,14 +99,13 @@ class SpotifyTools( spotipyExt.SpotifyExt ):
         self._createGenrePlaylists( username, desiredGenres )
 
     def sortPlaylist( self, playlistName, sortType, sortOrder ):
-#    '''
-#        Sorts a playlist given a sort parameter and creates a new playlist
-#
-#        Parameters:
-#            -- playlistName - playlist to be sorted
-#            -- sortType     - sorting parameter
-#            -- sortOrder    - ascending or descending sort order
-#    '''
+        ''' Sorts a playlist given a sort parameter and creates a new playlist
+
+            Parameters:
+                -- playlistName - playlist to be sorted
+                -- sortType     - sorting parameter
+                -- sortOrder    - ascending or descending sort order
+        '''
         trackDict    = dict()
 
         #Get playlist information
