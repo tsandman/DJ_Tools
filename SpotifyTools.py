@@ -1,6 +1,11 @@
 import spotipyExt
 import os
+import threading
+from threading import Lock
+import time
 import spotipy.util as util
+
+from YtDownloader import YtDownloader
 
 '''
     SpotifyTools is an extension of the SpotifyExt class. It provides additional functionality to the library 
@@ -10,16 +15,38 @@ class SpotifyTools( spotipyExt.SpotifyExt ):
     #Member Variables
     _genreList      = list()
     _genreTrackDict = dict()
+    _actionProgress = 0.0
+    _mutex = Lock()
 
-    def __init__( self, username, scope ):
+    #def __init__( self, username, scope ):
+    def __init__( self, *args ):
 
-        #Authenticate through spotipy
-        token = util.prompt_for_user_token( username, scope, client_id=os.environ['SPOTIFY_CLIENT_ID'], client_secret=os.environ['SPOTIFY_CLIENT_SECRET'], redirect_uri=os.environ['SPOTIFY_REDIRECT_URI'])
+        #Get spotify user parameters
+        if len( args ) < 3:
+            spotify_username = args[0]
+            spotify_scope    = args[1]
+            
+            #Authenticate through spotipy
+            token = util.prompt_for_user_token( spotify_username, spotify_scope, client_id=os.environ['SPOTIFY_CLIENT_ID'], client_secret=os.environ['SPOTIFY_CLIENT_SECRET'], redirect_uri=os.environ['SPOTIFY_REDIRECT_URI'] )
+        else:
+            spotify_username      = args[0]
+            spotify_client_id     = args[1]
+            spotify_client_secret = args[2]
+            spotify_redirect_uri  = args[3]
+            spotify_scope         = args[4]
+        
+            #Authenticate through spotipy
+            token = util.prompt_for_user_token( spotify_username, spotify_scope, client_id=spotify_client_id, client_secret=spotify_client_secret, redirect_uri=spotify_redirect_uri )
         
         #Call spotifyExt class constructor
         super().__init__( token )
-        self.username = username
-        
+        self.username = spotify_username
+
+    def getActionProgress( self ):
+        with self._mutex:
+            ret = self._actionProgress
+        return ret
+
     #Returns playlist ID given playlist name
     def _getPlaylistId( self, playlistName ):
         usrPlaylists = self.current_user_playlists()
@@ -161,3 +188,18 @@ class SpotifyTools( spotipyExt.SpotifyExt ):
         
         #Add tracks to new playlist
         self.user_playlist_add_tracks( user=self.username, playlist_id = refreshedPlaylistId, tracks=newTracks, position=0 )
+
+    def downloadPlaylist( self, playlistName ):
+        self.yt = YtDownloader()
+        self.yt.setOutputDir() #todo
+
+        dlTracks = self.getTracksFromPlaylistName(playlistName)
+
+        t = threading.Thread( target=self.yt.downloadTracks, args=[dlTracks] )
+        t.start()
+        while ( self._actionProgress < 100.0 ):
+            self._mutex.acquire()
+            self._actionProgress = self.yt.getDownloadProgress()
+            self._mutex.release()
+            time.sleep( 1 )
+        t.join()
