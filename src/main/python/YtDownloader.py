@@ -1,6 +1,6 @@
 from __future__                import unicode_literals
 import os
-import youtube_dl
+import yt_dlp as youtube_dl
 from threading import Lock
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -48,7 +48,7 @@ class YtDownloader():
         return track['name'] + ' - ' + ' - '.join([artist['name'] for artist in track['artists']])
 
     def setOutputDir( self ):
-        self.outputDir = 'C:/Users/tdsan/Downloads/test/'
+        self.outputDir = 'C:/Users/tdsan/Downloads/tttt/'
 
     def downloadTracks( self, tracks ):
         
@@ -63,6 +63,8 @@ class YtDownloader():
         }
     
         numTracksToDownload = len( tracks['items'] )
+        tracksDownloaded = list()
+
         for count, track in enumerate( tracks['items'] ):
             trackName = self.makeStringName( track['track'] )
     
@@ -83,3 +85,7 @@ class YtDownloader():
             
             with self.mutex:
                 self.downloadProgress = ( count + 1 ) / numTracksToDownload
+            
+            tracksDownloaded.append( track['track']['id'] )
+        
+        return tracksDownloaded

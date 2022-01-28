@@ -102,7 +102,7 @@ class SpotifyTools( spotipyExt.SpotifyExt ):
                     if gg in desiredGenres:
                         self._genreTrackDict[trackID] = gg
 
-                if genre not in self._genreList and genre is not 'NA':
+                if genre not in self._genreList and genre != 'NA':
                     self._genreList.append( genre )
 
             print( track['name'] + ' - ' + track['artists'][0]['name'] + ' - ' + ', '.join( thisGenre ) )
@@ -189,17 +189,22 @@ class SpotifyTools( spotipyExt.SpotifyExt ):
         #Add tracks to new playlist
         self.user_playlist_add_tracks( user=self.username, playlist_id = refreshedPlaylistId, tracks=newTracks, position=0 )
 
-    def downloadPlaylist( self, playlistName ):
+    def downloadPlaylist( self, playlistName, removeFromPlaylist=False ):
         self.yt = YtDownloader()
         self.yt.setOutputDir() #todo
 
         dlTracks = self.getTracksFromPlaylistName(playlistName)
+        dlTrackIds = [val.get('track').get('id') for val in dlTracks['items']]
 
         t = threading.Thread( target=self.yt.downloadTracks, args=[dlTracks] )
         t.start()
-        while ( self._actionProgress < 100.0 ):
+        while ( self._actionProgress < 1.0 ):
             self._mutex.acquire()
             self._actionProgress = self.yt.getDownloadProgress()
             self._mutex.release()
             time.sleep( 1 )
         t.join()
+
+        if removeFromPlaylist:
+            id = self.getPlaylistIdFromName( playlistName )
+            self.user_playlist_remove_all_occurrences_of_tracks( user=self.username, playlist_id=id, tracks=dlTrackIds, snapshot_id=None)

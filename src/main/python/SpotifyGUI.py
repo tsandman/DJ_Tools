@@ -143,7 +143,10 @@ class SpotifyGUI( QWidget ):
     def performAction( self ):
         for pIdx,p in enumerate( self.playlistActions ):
             if p.isChecked():
-                self.callbackDict[pIdx]( self.cb.currentText() )
+                if pIdx != 0:
+                    self.callbackDict[pIdx]( self.cb.currentText() )
+                else:
+                    self.callbackDict[pIdx]( self.cb.currentText(), True ) #bool argument is for download playlist delete feature TODO: there's probably a better way to do this
 		
     def threadAction( self ):
         t = threading.Thread( target=self.performAction )
