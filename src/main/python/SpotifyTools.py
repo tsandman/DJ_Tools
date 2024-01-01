@@ -189,6 +189,13 @@ class SpotifyTools( spotipyExt.SpotifyExt ):
         #Add tracks to new playlist
         self.user_playlist_add_tracks( user=self.username, playlist_id = refreshedPlaylistId, tracks=newTracks, position=0 )
 
+    def getPlaylistIdFromName( self, playlistName ):
+        playlists = self.user_playlists(self.username, limit=50, offset=0)
+        for playlist in playlists['items']:
+            if playlist['name'] == playlistName:
+                return playlist['id']
+        return 0
+        
     def downloadPlaylist( self, playlistName, removeFromPlaylist=False ):
         self.yt = YtDownloader()
         self.yt.setOutputDir() #todo
@@ -207,4 +214,5 @@ class SpotifyTools( spotipyExt.SpotifyExt ):
 
         if removeFromPlaylist:
             id = self.getPlaylistIdFromName( playlistName )
-            self.user_playlist_remove_all_occurrences_of_tracks( user=self.username, playlist_id=id, tracks=dlTrackIds, snapshot_id=None)
+            if id != 0:
+                self.user_playlist_remove_all_occurrences_of_tracks( user=self.username, playlist_id=id, tracks=dlTrackIds, snapshot_id=None )

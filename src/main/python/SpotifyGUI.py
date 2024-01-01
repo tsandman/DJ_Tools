@@ -25,9 +25,6 @@ class SpotifyGUI( QWidget ):
 
         settings = QSettings( 'apps', 'settings' )
         if settings.value( 'not_first_time_auth' ):
-        #if False:
-            print( "\nNotFirstTimeAuth!" )
-            
             self.spotifySettings.username      = settings.value( 'spotify_username' )
             self.spotifySettings.client_id     = settings.value( 'spotify_client_id' )
             self.spotifySettings.client_secret = settings.value( 'spotify_client_secret' )
@@ -62,13 +59,13 @@ class SpotifyGUI( QWidget ):
                                             QMessageBox.Yes | QMessageBox.No )
             
             if continueSetup == QMessageBox.Yes:
-                if not os.path.isfile( "client_secret.json" ):
-                    error_dialog = QErrorMessage()
-                    error_dialog.showMessage('ERROR: No client secret file found!')
-                    error_dialog.exec_()
-                    sys.exit()
-                else:
-                    settings.setValue( 'youtube_dl_auth', True )
+                #if not os.path.isfile( "client_secret.json" ):
+                #    error_dialog = QErrorMessage()
+                #    error_dialog.showMessage('ERROR: No client secret file found!')
+                #    error_dialog.exec_()
+                #    sys.exit()
+                #else:
+                settings.setValue( 'youtube_dl_auth', True )
             else:
                 sys.exit()
 
@@ -103,15 +100,21 @@ class SpotifyGUI( QWidget ):
         
         self.label.setText( 'User Playlists: ' )
         self.startActionButton.setText( 'Start' )
-        
-        for p in playlists['items']:
-            self.cb.addItem( p['name'] )
 
+        dwnld         = str()
+        playlistNames = list()
+        playlistItems = playlists['items']
+        
+        [playlistNames.append(p['name']) for p in playlistItems]
+        playlistNames.insert(0, playlistNames.pop(playlistNames.index('download')))
+
+        [self.cb.addItem(n) for n in playlistNames]
+        
         #Set Callbacks 
         self.cb.currentIndexChanged.connect(self.selectionchange)
-        #self.startActionButton.clicked.connect( self.performAction )
-        self.startActionButton.clicked.connect( self.threadAction )
+        self.startActionButton.clicked.connect(self.threadAction)
 
+        #Configure GUI layout
         layout.addWidget( self.fileMenu, 0, 0 )	
 
         widgetOffset = 4

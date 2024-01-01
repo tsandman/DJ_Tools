@@ -48,7 +48,7 @@ class YtDownloader():
         return track['name'] + ' - ' + ' - '.join([artist['name'] for artist in track['artists']])
 
     def setOutputDir( self ):
-        self.outputDir = 'C:/Users/tdsan/Downloads/tttt/'
+        self.outputDir = 'C:/Users/tyler/Music/dlFromDjTool_2023-12-31/'
 
     def downloadTracks( self, tracks ):
         
